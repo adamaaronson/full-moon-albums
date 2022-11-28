@@ -1,0 +1,1080 @@
+[
+    {
+        "title": "Kind of Blue",
+        "artist": "Miles Davis",
+        "year": "1959",
+        "descriptors": [
+            "jazzy",
+            "soulful",
+            "mellow"
+        ],
+        "songs": [
+            "So What",
+            "All Blues"
+        ]
+    },
+    {
+        "title": "Giant Steps",
+        "artist": "John Coltrane",
+        "year": "1960",
+        "descriptors": [
+            "jazzy",
+            "post-bop",
+            "virtuosic"
+        ],
+        "songs": [
+            "Giant Steps",
+            "Naima"
+        ]
+    },
+    {
+        "title": "Rubber Soul",
+        "artist": "The Beatles",
+        "year": "1965",
+        "descriptors": [
+            "folk",
+            "rock",
+            "groovy"
+        ],
+        "songs": [
+            "You Won't See Me",
+            "The Word"
+        ]
+    },
+    {
+        "title": "Sgt. Pepper\u2019s Lonely Hearts Club Band",
+        "artist": "The Beatles",
+        "year": "1967",
+        "descriptors": [
+            "rock",
+            "psychedelic",
+            "eclectic"
+        ],
+        "songs": [
+            "Getting Better",
+            "When I'm Sixty Four"
+        ]
+    },
+    {
+        "title": "Head Hunters",
+        "artist": "Herbie Hancock",
+        "year": "1973",
+        "descriptors": [
+            "jazzy",
+            "funky",
+            "groovy"
+        ],
+        "songs": [
+            "Watermelon Man",
+            "Sly"
+        ]
+    },
+    {
+        "title": "Innervisions",
+        "artist": "Stevie Wonder",
+        "year": "1973",
+        "descriptors": [
+            "funky",
+            "jazzy",
+            "soulful"
+        ],
+        "songs": [
+            "Too High",
+            "Don't You Worry 'Bout A Thing"
+        ]
+    },
+    {
+        "title": "The Royal Scam",
+        "artist": "Steely Dan",
+        "year": "1976",
+        "descriptors": [
+            "jazzy",
+            "rock",
+            "funky"
+        ],
+        "songs": [
+            "The Fez",
+            "Green Earrings"
+        ]
+    },
+    {
+        "title": "Aja",
+        "artist": "Steely Dan",
+        "year": "1977",
+        "descriptors": [
+            "jazzy",
+            "funky",
+            "breezy"
+        ],
+        "songs": [
+            "Black Cow",
+            "Home at Last"
+        ]
+    },
+    {
+        "title": "Look Sharp!",
+        "artist": "Joe Jackson",
+        "year": "1979",
+        "descriptors": [
+            "rock",
+            "punk",
+            "funky"
+        ],
+        "songs": [
+            "Sunday Papers",
+            "Look Sharp!"
+        ]
+    },
+    {
+        "title": "Glass Houses",
+        "artist": "Billy Joel",
+        "year": "1980",
+        "descriptors": [
+            "rock",
+            "new wave",
+            "punk"
+        ],
+        "songs": [
+            "Sometimes a Fantasy",
+            "All for Leyna"
+        ]
+    },
+    {
+        "title": "Remain in Light",
+        "artist": "Talking Heads",
+        "year": "1980",
+        "descriptors": [
+            "funky",
+            "Afrobeat",
+            "new wave"
+        ],
+        "songs": [
+            "Crosseyed and Painless",
+            "Once in a Lifetime"
+        ]
+    },
+    {
+        "title": "The Nightfly",
+        "artist": "Donald Fagen",
+        "year": "1982",
+        "descriptors": [
+            "jazzy",
+            "breezy",
+            "funky"
+        ],
+        "songs": [
+            "Green Flower Street",
+            "New Frontier"
+        ]
+    },
+    {
+        "title": "Robson Jorge e Lincoln Olivetti",
+        "artist": "Robson Jorge & Lincoln Olivetti",
+        "year": "1982",
+        "descriptors": [
+            "jazzy",
+            "disco",
+            "Latin"
+        ],
+        "songs": [
+            "Jorgea Corisco",
+            "Pret-\u00c0-Porter"
+        ]
+    },
+    {
+        "title": "Speaking in Tongues",
+        "artist": "Talking Heads",
+        "year": "1983",
+        "descriptors": [
+            "new wave",
+            "funky",
+            "groovy"
+        ],
+        "songs": [
+            "Making Flippy Floppy",
+            "Moon Rocks"
+        ]
+    },
+    {
+        "title": "Straight Outta Compton",
+        "artist": "N.W.A.",
+        "year": "1988",
+        "descriptors": [
+            "hip hop",
+            "gangsta rap",
+            "funky"
+        ],
+        "songs": [
+            "Parental Discretion Iz Advised",
+            "I Ain't Tha 1"
+        ]
+    },
+    {
+        "title": "Paul's Boutique",
+        "artist": "Beastie Boys",
+        "year": "1989",
+        "descriptors": [
+            "hip hop",
+            "funky",
+            "sampledelia"
+        ],
+        "songs": [
+            "Egg Man",
+            "Shadrach"
+        ]
+    },
+    {
+        "title": "3 Feet High and Rising",
+        "artist": "De La Soul",
+        "year": "1989",
+        "descriptors": [
+            "hip hop",
+            "sampledelia",
+            "jazzy"
+        ],
+        "songs": [
+            "Eye Know",
+            "Say No Go"
+        ]
+    },
+    {
+        "title": "The Low End Theory",
+        "artist": "A Tribe Called Quest",
+        "year": "1991",
+        "descriptors": [
+            "hip hop",
+            "jazzy",
+            "funky"
+        ],
+        "songs": [
+            "Butter",
+            "Jazz (We've Got)"
+        ]
+    },
+    {
+        "title": "Illmatic",
+        "artist": "Nas",
+        "year": "1994",
+        "descriptors": [
+            "hip hop",
+            "groovy",
+            "jazzy"
+        ],
+        "songs": [
+            "The World is Yours",
+            "It Ain't Hard to Tell"
+        ]
+    },
+    {
+        "title": "Baduizm",
+        "artist": "Erykah Badu",
+        "year": "1997",
+        "descriptors": [
+            "neo soul",
+            "stanky",
+            "funky"
+        ],
+        "songs": [
+            "On & On",
+            "Other Side of the Game"
+        ]
+    },
+    {
+        "title": "Mos Def & Talib Kweli Are Black Star",
+        "artist": "Black Star",
+        "year": "1998",
+        "descriptors": [
+            "hip hop",
+            "funky",
+            "groovy"
+        ],
+        "songs": [
+            "Definition",
+            "Respiration"
+        ]
+    },
+    {
+        "title": "The Miseducation of Lauryn Hill",
+        "artist": "Ms. Lauryn Hill",
+        "year": "1998",
+        "descriptors": [
+            "neo soul",
+            "hip hop",
+            "funky"
+        ],
+        "songs": [
+            "Doo Wop (That Thing)",
+            "Final Hour"
+        ]
+    },
+    {
+        "title": "You've Come a Long Way, Baby",
+        "artist": "Fatboy Slim",
+        "year": "1998",
+        "descriptors": [
+            "big beat",
+            "electronic",
+            "groovy"
+        ],
+        "songs": [
+            "The Rockafeller Skank",
+            "Gangster Trippin"
+        ]
+    },
+    {
+        "title": "Black on Both Sides",
+        "artist": "Mos Def",
+        "year": "1999",
+        "descriptors": [
+            "hip hop",
+            "soulful",
+            "funky"
+        ],
+        "songs": [
+            "Do It Now",
+            "Mathematics"
+        ]
+    },
+    {
+        "title": "Things Fall Apart",
+        "artist": "The Roots",
+        "year": "1999",
+        "descriptors": [
+            "hip hop",
+            "funky",
+            "stanky"
+        ],
+        "songs": [
+            "The Next Movement",
+            "Don't See Us"
+        ]
+    },
+    {
+        "title": "The Party Album!",
+        "artist": "Vengaboys",
+        "year": "1999",
+        "descriptors": [
+            "Eurodance",
+            "electronic",
+            "groovy"
+        ],
+        "songs": [
+            "We Like to Party! (The Vengabus)",
+            "The Vengabeat"
+        ]
+    },
+    {
+        "title": "Like Water for Chocolate",
+        "artist": "Common",
+        "year": "2000",
+        "descriptors": [
+            "hip hop",
+            "stanky",
+            "jazzy"
+        ],
+        "songs": [
+            "Dooinit",
+            "A Film Called (PIMP)"
+        ]
+    },
+    {
+        "title": "Voodoo",
+        "artist": "D\u2019Angelo",
+        "year": "2000",
+        "descriptors": [
+            "neo soul",
+            "stanky",
+            "funky"
+        ],
+        "songs": [
+            "Chicken Grease",
+            "The Root"
+        ]
+    },
+    {
+        "title": "Mama\u2019s Gun",
+        "artist": "Erykah Badu",
+        "year": "2000",
+        "descriptors": [
+            "neo soul",
+            "funky",
+            "jazzy"
+        ],
+        "songs": [
+            "My Life",
+            "Orange Moon"
+        ]
+    },
+    {
+        "title": "Train of Thought",
+        "artist": "Reflection Eternal",
+        "year": "2000",
+        "descriptors": [
+            "hip hop",
+            "groovy",
+            "funky"
+        ],
+        "songs": [
+            "This Means You",
+            "Ghetto Afterlife"
+        ]
+    },
+    {
+        "title": "Discovery",
+        "artist": "Daft Punk",
+        "year": "2001",
+        "descriptors": [
+            "electronic",
+            "funky",
+            "disco"
+        ],
+        "songs": [
+            "Harder, Better, Faster, Stronger",
+            "Short Circuit"
+        ]
+    },
+    {
+        "title": "Madvillainy",
+        "artist": "Madvillain",
+        "year": "2004",
+        "descriptors": [
+            "hip hop",
+            "jazzy",
+            "wonky"
+        ],
+        "songs": [
+            "Meat Grinder",
+            "Figaro"
+        ]
+    },
+    {
+        "title": "MM\u2026FOOD",
+        "artist": "MF DOOM",
+        "year": "2004",
+        "descriptors": [
+            "hip hop",
+            "groovy",
+            "goofy"
+        ],
+        "songs": [
+            "Deep Fried Frenz",
+            "Vomitspit"
+        ]
+    },
+    {
+        "title": "The Mouse & The Mask",
+        "artist": "DANGERDOOM",
+        "year": "2005",
+        "descriptors": [
+            "hip hop",
+            "funky",
+            "sampledelia"
+        ],
+        "songs": [
+            "El Chupa Nibre",
+            "Crosshairs"
+        ]
+    },
+    {
+        "title": "Sound of Silver",
+        "artist": "LCD Soundsystem",
+        "year": "2007",
+        "descriptors": [
+            "electronic",
+            "groovy",
+            "punk"
+        ],
+        "songs": [
+            "Time to Get Away",
+            "Sound of Silver"
+        ]
+    },
+    {
+        "title": "Earfood",
+        "artist": "Roy Hargrove",
+        "year": "2008",
+        "descriptors": [
+            "jazzy",
+            "bluesy",
+            "soulful"
+        ],
+        "songs": [
+            "Strasbourg / St. Denis",
+            "The Stinger"
+        ]
+    },
+    {
+        "title": "Vampire Weekend",
+        "artist": "Vampire Weekend",
+        "year": "2008",
+        "descriptors": [
+            "indie rock",
+            "groovy",
+            "Afrobeat"
+        ],
+        "songs": [
+            "Oxford Comma",
+            "Cape Cod Kwassa Kwassa"
+        ]
+    },
+    {
+        "title": "Torches",
+        "artist": "Foster the People",
+        "year": "2011",
+        "descriptors": [
+            "indie pop",
+            "electronic",
+            "psychedelic"
+        ],
+        "songs": [
+            "Don't Stop (Color on the Walls)",
+            "Waste"
+        ]
+    },
+    {
+        "title": "Settle",
+        "artist": "Disclosure",
+        "year": "2013",
+        "descriptors": [
+            "house",
+            "groovy",
+            "funky"
+        ],
+        "songs": [
+            "When a Fire Starts to Burn",
+            "Stimulation"
+        ]
+    },
+    {
+        "title": "AOR",
+        "artist": "Ed Motta",
+        "year": "2013",
+        "descriptors": [
+            "jazzy",
+            "funky",
+            "breezy"
+        ],
+        "songs": [
+            "Simple Guy",
+            "1978 (Leave the Radio On)"
+        ]
+    },
+    {
+        "title": "Syro",
+        "artist": "Aphex Twin",
+        "year": "2014",
+        "descriptors": [
+            "electronic",
+            "groovy",
+            "glitchy"
+        ],
+        "songs": [
+            "minipops 67",
+            "CIRCLONT14"
+        ]
+    },
+    {
+        "title": "Dopamine",
+        "artist": "B\u00d8RNS",
+        "year": "2015",
+        "descriptors": [
+            "indie pop",
+            "electronic",
+            "groovy"
+        ],
+        "songs": [
+            "Dug My Heart",
+            "Holy Ghost"
+        ]
+    },
+    {
+        "title": "<|\u00ba_\u00ba|>",
+        "artist": "Caravan Palace",
+        "year": "2015",
+        "descriptors": [
+            "electroswing",
+            "jazzy",
+            "groovy"
+        ],
+        "songs": [
+            "Wonderland",
+            "Russian"
+        ]
+    },
+    {
+        "title": "Emotion",
+        "artist": "Carly Rae Jepsen",
+        "year": "2015",
+        "descriptors": [
+            "poppy",
+            "synthy",
+            "groovy"
+        ],
+        "songs": [
+            "Run Away With Me",
+            "Boy Problems"
+        ]
+    },
+    {
+        "title": "To Pimp A Butterfly",
+        "artist": "Kendrick Lamar",
+        "year": "2015",
+        "descriptors": [
+            "hip hop",
+            "jazzy",
+            "soulful"
+        ],
+        "songs": [
+            "King Kunta",
+            "How Much A Dollar Cost"
+        ]
+    },
+    {
+        "title": "Sylva",
+        "artist": "Snarky Puppy & Metropole Orkest",
+        "year": "2015",
+        "descriptors": [
+            "jazzy",
+            "orchestral",
+            "epic"
+        ],
+        "songs": [
+            "Flight",
+            "Atchafalaya"
+        ]
+    },
+    {
+        "title": "24K Magic",
+        "artist": "Bruno Mars",
+        "year": "2016",
+        "descriptors": [
+            "poppy",
+            "funky",
+            "soulful"
+        ],
+        "songs": [
+            "Chunky",
+            "That's What I Like"
+        ]
+    },
+    {
+        "title": "Bonito Generation",
+        "artist": "Kero Kero Bonito",
+        "year": "2016",
+        "descriptors": [
+            "groovy",
+            "bouncy",
+            "poppy"
+        ],
+        "songs": [
+            "Try Me",
+            "Trampoline"
+        ]
+    },
+    {
+        "title": "The Beautiful Game",
+        "artist": "Vulfpeck",
+        "year": "2016",
+        "descriptors": [
+            "funky",
+            "disco",
+            "poppy"
+        ],
+        "songs": [
+            "Animal Spirits",
+            "1 for 1, DiMaggio"
+        ]
+    },
+    {
+        "title": "Scratch & Sniff",
+        "artist": "Jazz Spastiks",
+        "year": "2017",
+        "descriptors": [
+            "sampledelia",
+            "jazzy",
+            "hip hop"
+        ],
+        "songs": [
+            "Bananas (Unzip a Banana)",
+            "Bubblegum (Bubble, Bubble, Bubble, Bubble, Pop)"
+        ]
+    },
+    {
+        "title": "Heartbreak Hits",
+        "artist": "Theo Katzman",
+        "year": "2017",
+        "descriptors": [
+            "rock",
+            "funky",
+            "folk"
+        ],
+        "songs": [
+            "Crappy Love Song",
+            "Plain Jane Heroin"
+        ]
+    },
+    {
+        "title": "Drunk",
+        "artist": "Thundercat",
+        "year": "2017",
+        "descriptors": [
+            "funky",
+            "jazzy",
+            "psychedelic"
+        ],
+        "songs": [
+            "Tokyo",
+            "Friend Zone"
+        ]
+    },
+    {
+        "title": "Time",
+        "artist": "Louis Cole",
+        "year": "2018",
+        "descriptors": [
+            "funky",
+            "synthy",
+            "jazzy"
+        ],
+        "songs": [
+            "Weird Part of the Night",
+            "Things"
+        ]
+    },
+    {
+        "title": "The Optimist",
+        "artist": "Ryan Porter",
+        "year": "2018",
+        "descriptors": [
+            "jazzy",
+            "groovy",
+            "swaggy"
+        ],
+        "songs": [
+            "The Instrumental Hip-Hoppa",
+            "D\u00e9j\u00e0 Vu"
+        ]
+    },
+    {
+        "title": "Geography",
+        "artist": "Tom Misch",
+        "year": "2018",
+        "descriptors": [
+            "funky",
+            "soulful",
+            "groovy"
+        ],
+        "songs": [
+            "It Runs Through Me",
+            "Disco Yes"
+        ]
+    },
+    {
+        "title": "Ventura",
+        "artist": "Anderson .Paak",
+        "year": "2019",
+        "descriptors": [
+            "R&B",
+            "hip hop",
+            "funky"
+        ],
+        "songs": [
+            "Winners Circle",
+            "King James"
+        ]
+    },
+    {
+        "title": "Cold Water Burning Skin",
+        "artist": "Fieh",
+        "year": "2019",
+        "descriptors": [
+            "neo soul",
+            "groovy",
+            "funky"
+        ],
+        "songs": [
+            "Flower",
+            "Glu"
+        ]
+    },
+    {
+        "title": "Jungle Run",
+        "artist": "Nubiyan Twist",
+        "year": "2019",
+        "descriptors": [
+            "Afro-jazz",
+            "funky",
+            "electronic"
+        ],
+        "songs": [
+            "Tell It To Me Slowly",
+            "Permission"
+        ]
+    },
+    {
+        "title": "Djesse Vol. 2",
+        "artist": "Jacob Collier",
+        "year": "2019",
+        "descriptors": [
+            "folk",
+            "jazzy",
+            "eclectic"
+        ],
+        "songs": [
+            "Feel",
+            "It Don't Matter"
+        ]
+    },
+    {
+        "title": "Origin",
+        "artist": "Jordan Rakei",
+        "year": "2019",
+        "descriptors": [
+            "soulful",
+            "groovy",
+            "funky"
+        ],
+        "songs": [
+            "Rolling into One",
+            "You & Me"
+        ]
+    },
+    {
+        "title": "Little Ghost",
+        "artist": "Moonchild",
+        "year": "2019",
+        "descriptors": [
+            "neo soul",
+            "jazzy",
+            "groovy"
+        ],
+        "songs": [
+            "Wise Women",
+            "Money"
+        ]
+    },
+    {
+        "title": "Mixtape",
+        "artist": "Bobbing",
+        "year": "2020",
+        "descriptors": [
+            "funky",
+            "electronic",
+            "wonky"
+        ],
+        "songs": [
+            "What Went Weird",
+            "Tous Les Jours"
+        ]
+    },
+    {
+        "title": "Future Nostalgia",
+        "artist": "Dua Lipa",
+        "year": "2020",
+        "descriptors": [
+            "poppy",
+            "funky",
+            "groovy"
+        ],
+        "songs": [
+            "Future Nostalgia",
+            "Pretty Please"
+        ]
+    },
+    {
+        "title": "Djesse Vol. 3",
+        "artist": "Jacob Collier",
+        "year": "2020",
+        "descriptors": [
+            "R&B",
+            "funky",
+            "glitchy"
+        ],
+        "songs": [
+            "All I Need",
+            "Sleeping On My Dreams"
+        ]
+    },
+    {
+        "title": "Haven",
+        "artist": "Svaneborg Kardyb",
+        "year": "2020",
+        "descriptors": [
+            "jazzy",
+            "ethereal",
+            "mellow"
+        ],
+        "songs": [
+            "D\u00e6mningen",
+            "Bluesen"
+        ]
+    },
+    {
+        "title": "What Kinda Music",
+        "artist": "Tom Misch & Yussef Dayes",
+        "year": "2020",
+        "descriptors": [
+            "funky",
+            "groovy",
+            "ethereal"
+        ],
+        "songs": [
+            "Nightrider",
+            "Last 100"
+        ]
+    },
+    {
+        "title": "Tako Tsubo",
+        "artist": "L'Imp\u00e9ratrice",
+        "year": "2021",
+        "descriptors": [
+            "funky",
+            "disco",
+            "groovy"
+        ],
+        "songs": [
+            "Fou",
+            "Peur des filles"
+        ]
+    },
+    {
+        "title": "So Many Me",
+        "artist": "Michael League",
+        "year": "2021",
+        "descriptors": [
+            "groovy",
+            "ethereal",
+            "worldbeat"
+        ],
+        "songs": [
+            "Sentinel Species",
+            "Since You've Been By"
+        ]
+    },
+    {
+        "title": "Bones",
+        "artist": "Michael Mayo",
+        "year": "2021",
+        "descriptors": [
+            "jazzy",
+            "groovy",
+            "lush"
+        ],
+        "songs": [
+            "About Your Love",
+            "20/20"
+        ]
+    },
+    {
+        "title": "Sweet Side",
+        "artist": "Raquel Rodriguez",
+        "year": "2021",
+        "descriptors": [
+            "R&B",
+            "neo soul",
+            "funky"
+        ],
+        "songs": [
+            "Leave Me Behind",
+            "Last Night"
+        ]
+    },
+    {
+        "title": "Juno",
+        "artist": "Remi Wolf",
+        "year": "2021",
+        "descriptors": [
+            "poppy",
+            "funky",
+            "mucky"
+        ],
+        "songs": [
+            "wyd",
+            "Grumpy Old Man"
+        ]
+    },
+    {
+        "title": "here's some stuff",
+        "artist": "Sam Greenfield",
+        "year": "2021",
+        "descriptors": [
+            "funky",
+            "jazzy",
+            "poppy"
+        ],
+        "songs": [
+            "banana song",
+            "in love"
+        ]
+    },
+    {
+        "title": "An Evening With Silk Sonic",
+        "artist": "Silk Sonic",
+        "year": "2021",
+        "descriptors": [
+            "funky",
+            "soulful",
+            "smooth"
+        ],
+        "songs": [
+            "Fly As Me",
+            "Skate"
+        ]
+    },
+    {
+        "title": "Evergreen",
+        "artist": "Crackazat",
+        "year": "2022",
+        "descriptors": [
+            "house",
+            "groovy",
+            "jazzy"
+        ],
+        "songs": [
+            "Everybody Talks About It",
+            "Evergreen"
+        ]
+    },
+    {
+        "title": "Greatest Hits, Vol. 3",
+        "artist": "Jacob Mann Big Band",
+        "year": "2022",
+        "descriptors": [
+            "jazzy",
+            "funky",
+            "playful"
+        ],
+        "songs": [
+            "The Soy Lentman Show",
+            "Flight Screen Solitaire"
+        ]
+    },
+    {
+        "title": "NOT TiGHT",
+        "artist": "DOMi & JD Beck",
+        "year": "2022",
+        "descriptors": [
+            "jazzy",
+            "frenetic",
+            "hip hop"
+        ],
+        "songs": [
+            "U DON'T HAVE TO ROB ME",
+            "SNiFF"
+        ]
+    },
+    {
+        "title": "Quality Over Opinion",
+        "artist": "Louis Cole",
+        "year": "2022",
+        "descriptors": [
+            "funky",
+            "synthy",
+            "mellow"
+        ],
+        "songs": [
+            "I'm Tight",
+            "Don't Care"
+        ]
+    }
+]
