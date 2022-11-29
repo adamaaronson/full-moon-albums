@@ -15,9 +15,9 @@ function App() {
 
     return (
         <div className="app">
-            <h1 className="app-header">
+            {/* <h1 className="app-header">
                 Full Moon Albums
-            </h1>
+            </h1> */}
             <main className="app-body">
                 <AlbumSorter changeSort={handleSortChange} />
                 <AlbumGrid albums={albums} />

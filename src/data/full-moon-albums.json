@@ -4,7 +4,7 @@
         "artist": "Miles Davis",
         "year": "1959",
         "descriptors": [
-            "jazzy",
+            "jazz",
             "soulful",
             "mellow"
         ],
@@ -21,7 +21,7 @@
         "artist": "John Coltrane",
         "year": "1960",
         "descriptors": [
-            "jazzy",
+            "jazz",
             "post-bop",
             "virtuosic"
         ],
@@ -72,7 +72,7 @@
         "artist": "Herbie Hancock",
         "year": "1973",
         "descriptors": [
-            "jazzy",
+            "jazz",
             "funky",
             "groovy"
         ],
@@ -888,7 +888,7 @@
         "artist": "Ryan Porter",
         "year": "2018",
         "descriptors": [
-            "jazzy",
+            "jazz",
             "groovy",
             "swaggy"
         ],
@@ -1022,7 +1022,7 @@
     {
         "title": "Mixtape",
         "artist": "Bobbing",
-        "year": "2020",
+        "year": "2020-07-10",
         "descriptors": [
             "funky",
             "electronic",
@@ -1039,7 +1039,7 @@
     {
         "title": "Future Nostalgia",
         "artist": "Dua Lipa",
-        "year": "2020",
+        "year": "2020-03-27",
         "descriptors": [
             "poppy",
             "funky",
@@ -1056,7 +1056,7 @@
     {
         "title": "Djesse Vol. 3",
         "artist": "Jacob Collier",
-        "year": "2020",
+        "year": "2020-08-14",
         "descriptors": [
             "R&B",
             "funky",
@@ -1073,7 +1073,7 @@
     {
         "title": "Haven",
         "artist": "Svaneborg Kardyb",
-        "year": "2020",
+        "year": "2020-10-23",
         "descriptors": [
             "jazzy",
             "ethereal",
@@ -1090,7 +1090,7 @@
     {
         "title": "What Kinda Music",
         "artist": "Tom Misch & Yussef Dayes",
-        "year": "2020",
+        "year": "2020-04-24",
         "descriptors": [
             "funky",
             "groovy",
@@ -1107,7 +1107,7 @@
     {
         "title": "Tako Tsubo",
         "artist": "L'Imp\u00e9ratrice",
-        "year": "2021",
+        "year": "2021-03-26",
         "descriptors": [
             "funky",
             "disco",
@@ -1124,7 +1124,7 @@
     {
         "title": "So Many Me",
         "artist": "Michael League",
-        "year": "2021",
+        "year": "2021-06-25",
         "descriptors": [
             "groovy",
             "ethereal",
@@ -1141,7 +1141,7 @@
     {
         "title": "Bones",
         "artist": "Michael Mayo",
-        "year": "2021",
+        "year": "2021-06-04",
         "descriptors": [
             "jazzy",
             "groovy",
@@ -1158,7 +1158,7 @@
     {
         "title": "Sweet Side",
         "artist": "Raquel Rodriguez",
-        "year": "2021",
+        "year": "2021-04-23",
         "descriptors": [
             "R&B",
             "neo soul",
@@ -1175,7 +1175,7 @@
     {
         "title": "Juno",
         "artist": "Remi Wolf",
-        "year": "2021",
+        "year": "2021-10-15",
         "descriptors": [
             "poppy",
             "funky",
@@ -1192,7 +1192,7 @@
     {
         "title": "here's some stuff",
         "artist": "Sam Greenfield",
-        "year": "2021",
+        "year": "2021-03-26",
         "descriptors": [
             "funky",
             "jazzy",
@@ -1209,7 +1209,7 @@
     {
         "title": "An Evening With Silk Sonic",
         "artist": "Silk Sonic",
-        "year": "2021",
+        "year": "2021-11-12",
         "descriptors": [
             "funky",
             "soulful",
@@ -1226,7 +1226,7 @@
     {
         "title": "Evergreen",
         "artist": "Crackazat",
-        "year": "2022",
+        "year": "2022-05-13",
         "descriptors": [
             "house",
             "groovy",
@@ -1243,7 +1243,7 @@
     {
         "title": "Greatest Hits, Vol. 3",
         "artist": "Jacob Mann Big Band",
-        "year": "2022",
+        "year": "2022-04-01",
         "descriptors": [
             "jazzy",
             "funky",
@@ -1260,7 +1260,7 @@
     {
         "title": "NOT TiGHT",
         "artist": "DOMi & JD Beck",
-        "year": "2022",
+        "year": "2022-07-29",
         "descriptors": [
             "jazzy",
             "frenetic",
@@ -1277,7 +1277,7 @@
     {
         "title": "Quality Over Opinion",
         "artist": "Louis Cole",
-        "year": "2022",
+        "year": "2022-10-14",
         "descriptors": [
             "synth funk",
             "mellow",

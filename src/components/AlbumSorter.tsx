@@ -26,9 +26,9 @@ export function getSortedAlbums(albums: Album[], sort: Sort): Album[] {
         case Sort.RecentlyAdded:
             return albums.sort((a: Album, b: Album) => b.date_added.localeCompare(a.date_added))
         case Sort.OldestToNewest:
-            return albums.sort((a: Album, b: Album) => parseInt(a.year) - parseInt(b.year))
+            return albums.sort((a: Album, b: Album) => a.year.localeCompare(b.year))
         case Sort.NewestToOldest:
-            return albums.sort((a: Album, b: Album) => parseInt(b.year) - parseInt(a.year))
+            return albums.sort((a: Album, b: Album) => b.year.localeCompare(a.year))
         case Sort.AlbumName:
             return albums.sort((a: Album, b: Album) => titleComparator(a.title, b.title))
         case Sort.ArtistName:

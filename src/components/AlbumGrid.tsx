@@ -1,13 +1,18 @@
-import { AlbumCard } from './AlbumCard';
+import { AlbumCard, AlbumCardProps } from './AlbumCard';
 import { Album } from './Album';
 import "../css/AlbumGrid.scss"
+import { motion } from 'framer-motion';
 
-export interface AlbumSorterProps {
+export interface AlbumGridProps {
     albums: Album[]
 }
 
-export function AlbumGrid({ albums }: AlbumSorterProps) {
-    return <div className="album-grid">{ 
-        albums.map(album => AlbumCard(album))
-    }</div>
+export function AlbumGrid({ albums }: AlbumGridProps) {
+    return <div className="album-grid">
+        {albums.map(album => 
+            <motion.div layout key={album.title} className="album-card-wrapper">
+                <AlbumCard album={album} />
+            </motion.div>
+        )}
+    </div>
 }

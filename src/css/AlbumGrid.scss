@@ -9,3 +9,8 @@
     margin-right: $spacing-unit * 2;
     margin-bottom: $spacing-unit * 2;
 }
+
+.album-card-wrapper {
+    display: flex;
+    flex-grow: 1;
+}

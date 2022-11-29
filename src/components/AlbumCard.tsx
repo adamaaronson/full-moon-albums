@@ -1,12 +1,16 @@
 import { Album } from "./Album"
 import "../css/AlbumCard.scss"
 
-export function AlbumCard(album: Album) {
+export interface AlbumCardProps {
+    album: Album
+}
+
+export function AlbumCard({ album }: AlbumCardProps) {
     function capitalizeFirstLetter(str: string) {
         return str.charAt(0).toUpperCase() + str.slice(1);
     }
 
-    return <div className="album-card" key={album.title}>
+    return <div className="album-card">
         <div className="album-info">
             <img src={album.image_url} className="album-image" width="200px"></img>
             <h2 className="album-title">
@@ -16,7 +20,7 @@ export function AlbumCard(album: Album) {
                 {album.artist}
             </h3>
             <h4 className="album-year">
-                {album.year}
+                {album.year.split('-')[0]}
             </h4>
             <ul className="album-descriptors-list">
                 {album.descriptors.map(des => 
