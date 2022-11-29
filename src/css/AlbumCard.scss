@@ -1,0 +1,83 @@
+@import "App.scss";
+
+.album-card {
+    background: $dark-gray;
+    color: $white;
+    border-radius: 32px;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+}
+
+.album-image {
+    width: 100%;
+    margin-bottom: $spacing-unit;
+}
+
+.album-title {
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: $spacing-unit * 0.5;
+}
+
+.album-artist {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: $spacing-unit * 0.5;
+}
+
+.album-year {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: normal;
+    color: $gray;
+    margin-bottom: $spacing-unit;
+}
+
+.album-descriptors-list {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 6px;
+    margin-bottom: $spacing-unit;
+}
+
+.album-descriptor {
+    font-size: 14px;
+    background-color: $medium-gray;
+    display: inline-block;
+    border-radius: 8675309px;
+    padding: 4px 12px;
+}
+
+.album-tracks {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.spotify-logo {
+    width: 35px;
+    cursor: pointer;
+}
+
+.no-spotify {
+    opacity: 30%;
+    cursor: default;
+}
+
+.album-tracks-header {
+    font-size: 14px;
+    line-height: 21px;
+    color: $gray;
+    font-weight: normal;
+}
+
+.album-tracks-list {
+    list-style: none;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: bold;
+}

@@ -1,8 +1,13 @@
-import albums from '../data/full-moon-albums.json';
 import { AlbumCard } from './AlbumCard';
+import { Album } from './Album';
+import "../css/AlbumGrid.scss"
 
-export function AlbumGrid() {
-    return <div>{ 
+export interface AlbumSorterProps {
+    albums: Album[]
+}
+
+export function AlbumGrid({ albums }: AlbumSorterProps) {
+    return <div className="album-grid">{ 
         albums.map(album => AlbumCard(album))
     }</div>
 }

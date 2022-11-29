@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 
 src/data/apiconfig.py
+*__pycache__
+*.cache

@@ -1,0 +1,35 @@
+$moon: #E6BC20;
+$white: #EDF4FA;
+$gray: #ABB3BA;
+$medium-gray: #494B4D;
+$dark-gray: #272829;
+$darker-gray: #1B1C1C;
+$darkest-gray: #151515;
+
+$spacing-unit: 19px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif
+}
+
+body {
+    background: $darker-gray;
+}
+
+.app-header {
+    color: $white;
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 90px;
+    text-align: center;
+    margin-top: $spacing-unit * 2;
+    margin-bottom: $spacing-unit * 2;
+}
+
+.app-body {
+    margin: auto;
+    max-width: 1400px;
+}
