@@ -9,6 +9,18 @@ export enum Sort {
     ArtistName
 }
 
+// https://stackoverflow.com/questions/34347008/how-can-i-sort-a-javascript-array-while-ignoring-articles-a-an-the
+function titleComparator(a: string, b: string) {
+    var articles = ['a', 'an', 'the'],
+        re = new RegExp('^(?:(' + articles.join('|') + ') )(.*)$'), // e.g. /^(?:(foo|bar) )(.*)$/
+        replacer = function ($0: string, $1: string, $2: string) {
+            return $2 + ', ' + $1;
+        };
+    a = a.toLowerCase().replace(re, replacer);
+    b = b.toLowerCase().replace(re, replacer);
+    return a.localeCompare(b);
+}
+
 export function getSortedAlbums(albums: Album[], sort: Sort): Album[] {
     switch (sort) {
         case Sort.RecentlyAdded:
@@ -18,9 +30,9 @@ export function getSortedAlbums(albums: Album[], sort: Sort): Album[] {
         case Sort.NewestToOldest:
             return albums.sort((a: Album, b: Album) => parseInt(b.year) - parseInt(a.year))
         case Sort.AlbumName:
-            return albums.sort((a: Album, b: Album) => a.title.localeCompare(b.title))
+            return albums.sort((a: Album, b: Album) => titleComparator(a.title, b.title))
         case Sort.ArtistName:
-            return albums.sort((a: Album, b: Album) => a.artist.localeCompare(b.artist))
+            return albums.sort((a: Album, b: Album) => titleComparator(a.artist, b.artist))
     }
 }
 
