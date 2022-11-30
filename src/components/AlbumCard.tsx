@@ -2,14 +2,15 @@ import { Album } from "./Album"
 import "../css/AlbumCard.scss"
 
 export interface AlbumCardProps {
-    album: Album
+    album: Album,
+    onClickFilter: React.MouseEventHandler<HTMLButtonElement>
 }
 
-export function AlbumCard({ album }: AlbumCardProps) {
-    function capitalizeFirstLetter(str: string) {
-        return str.charAt(0).toUpperCase() + str.slice(1);
-    }
+export function capitalizeFirstLetter(str: string) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
 
+export function AlbumCard({ album, onClickFilter }: AlbumCardProps) {
     return <div className="album-card">
         <div className="album-info">
             <img src={album.image_url} className="album-image" width="200px"></img>
@@ -22,13 +23,13 @@ export function AlbumCard({ album }: AlbumCardProps) {
             <h4 className="album-year">
                 {album.year.split('-')[0]}
             </h4>
-            <ul className="album-descriptors-list">
-                {album.descriptors.map(des => 
-                    <li className="album-descriptor" key={des}>
-                        {capitalizeFirstLetter(des)}
-                    </li>
+            <div className="album-descriptors-list">
+                {album.descriptors.map(filter => 
+                    <button className="album-descriptor" key={filter} value={filter} onClick={onClickFilter}>
+                        {capitalizeFirstLetter(filter)}
+                    </button>
                 )}
-            </ul>
+            </div>
         </div>
         <div className="album-tracks">
             <div className="album-tracks-text">
@@ -47,7 +48,7 @@ export function AlbumCard({ album }: AlbumCardProps) {
                 {album.album_url == '' ?
                     <img className="spotify-logo no-spotify" src="spotify.png"></img>
                 :
-                    <a href={album.album_url}>
+                    <a href={album.album_url} target="_blank" rel="noopener noreferrer">
                         <img className="spotify-logo" src="spotify.png"></img>
                     </a>
                     

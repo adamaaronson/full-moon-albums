@@ -8,6 +8,12 @@
     display: flex;
     justify-content: space-between;
     flex-flow: column wrap;
+
+    transition: 0.3s transform;
+
+    &:hover {
+        transform: scale(1.03)
+    }
 }
 
 .album-image {
@@ -44,11 +50,14 @@
 }
 
 .album-descriptor {
+    color: $white;
+    border: none;
     font-size: 14px;
     background-color: $medium-gray;
     display: inline-block;
-    border-radius: 8675309px;
+    border-radius: $pill;
     padding: 4px 12px;
+    cursor: pointer;
 }
 
 .album-tracks {
@@ -56,6 +65,7 @@
     flex-flow: row;
     justify-content: space-between;
     align-items: flex-end;
+    gap: 5px;
 }
 
 .spotify-logo {

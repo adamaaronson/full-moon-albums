@@ -1,5 +1,7 @@
 import React from "react"
 import { Album } from "./Album"
+import "../css/AlbumSorter.scss"
+import { capitalizeFirstLetter } from "./AlbumCard";
 
 export enum Sort {
     RecentlyAdded,
@@ -36,22 +38,76 @@ export function getSortedAlbums(albums: Album[], sort: Sort): Album[] {
     }
 }
 
-export interface AlbumSorterProps {
-    changeSort: (sort: Sort) => void
+export const ALL_ALBUMS = "All"
+
+export interface Filter {
+    name: string,
+    count: number
 }
 
-export function AlbumSorter({ changeSort }: AlbumSorterProps) {
-    const onChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+export function getFilterList(albums: Album[]) {
+    let filters: { [key: string]: number } = {}
+    for (let album of albums) {
+        for (let descriptor of album.descriptors) {
+            if (descriptor in filters) {
+                filters[descriptor] += 1
+            } else {
+                filters[descriptor] = 1
+            }
+        }
+    }
+
+    let filterList: Filter[] = []
+    for (let filter of Object.keys(filters)) {
+        filterList.push({
+            name: filter,
+            count: filters[filter]
+        })
+    }
+    filterList.push({
+        name: ALL_ALBUMS,
+        count: albums.length
+    })
+
+    filterList.sort((a: Filter, b: Filter) => a.name.localeCompare(b.name))
+    filterList.sort((a: Filter, b: Filter) => b.count - a.count)
+
+    return filterList
+}
+
+export interface AlbumSorterProps {
+    changeSort: (sort: Sort) => void,
+    changeFilter: (filterName: string) => void,
+    filterList: Filter[]
+}
+
+export function AlbumSorter({ changeSort, changeFilter, filterList }: AlbumSorterProps) {
+    const onChangeSort = (event: React.ChangeEvent<HTMLSelectElement>) => {
         changeSort(parseInt(event.target.value))
     }
 
+    const onChangeFilter = (event: React.ChangeEvent<HTMLSelectElement>) => {
+        changeFilter(event.target.value)
+    }
+
     return <div className="album-sorter">
-        <select id="album-sorter-select" onChange={onChange} defaultValue="0">
-            <option value={Sort.RecentlyAdded}>Recently added</option>
-            <option value={Sort.OldestToNewest}>Oldest to newest</option>
-            <option value={Sort.NewestToOldest}>Newest to oldest</option>
-            <option value={Sort.AlbumName}>Album name</option>
-            <option value={Sort.ArtistName}>Artist name</option>
-        </select>
+        <div className="sort-by">
+            <label htmlFor="album-sorter-select" className="nice-select-label">Sort by:</label>
+            <select id="album-sorter-select" className="nice-select" onChange={onChangeSort} defaultValue="0">
+                <option value={Sort.RecentlyAdded}>Recently added</option>
+                <option value={Sort.OldestToNewest}>Oldest to newest</option>
+                <option value={Sort.NewestToOldest}>Newest to oldest</option>
+                <option value={Sort.AlbumName}>Album name</option>
+                <option value={Sort.ArtistName}>Artist name</option>
+            </select>
+        </div>
+        <div className="filter-by">
+            <label htmlFor="album-filterer-select" className="nice-select-label">Filter by:</label>
+            <select id="album-filterer-select" className="nice-select" onChange={onChangeFilter} defaultValue={ALL_ALBUMS}>
+                {filterList.map((filter: Filter) =>
+                    <option value={filter.name} key={filter.name}>{capitalizeFirstLetter(filter.name)} ({filter.count})</option>
+                )}
+            </select>
+        </div>
     </div>
 }
