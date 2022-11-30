@@ -8,7 +8,8 @@ export enum Sort {
     OldestToNewest,
     NewestToOldest,
     AlbumName,
-    ArtistName
+    ArtistName,
+    Random
 }
 
 // https://stackoverflow.com/questions/34347008/how-can-i-sort-a-javascript-array-while-ignoring-articles-a-an-the
@@ -23,6 +24,25 @@ function titleComparator(a: string, b: string) {
     return a.localeCompare(b);
 }
 
+// https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+function shuffle(array: Array<any>) {
+    let currentIndex = array.length,  randomIndex;
+  
+    // While there remain elements to shuffle.
+    while (currentIndex != 0) {
+  
+        // Pick a remaining element.
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+    
+        // And swap it with the current element.
+        [array[currentIndex], array[randomIndex]] = [
+            array[randomIndex], array[currentIndex]];
+    }
+  
+    return array;
+}
+
 export function getSortedAlbums(albums: Album[], sort: Sort): Album[] {
     switch (sort) {
         case Sort.RecentlyAdded:
@@ -35,6 +55,8 @@ export function getSortedAlbums(albums: Album[], sort: Sort): Album[] {
             return albums.sort((a: Album, b: Album) => titleComparator(a.title, b.title))
         case Sort.ArtistName:
             return albums.sort((a: Album, b: Album) => titleComparator(a.artist, b.artist))
+        case Sort.Random:
+            return shuffle(albums)
     }
 }
 
@@ -100,6 +122,7 @@ export function AlbumSorter({ changeSort, changeFilter, currentFilter, filterLis
                 <option value={Sort.NewestToOldest}>Newest to oldest</option>
                 <option value={Sort.AlbumName}>Album name</option>
                 <option value={Sort.ArtistName}>Artist name</option>
+                <option value={Sort.Random}>Random</option>
             </select>
         </div>
         <div className="filter-by">
