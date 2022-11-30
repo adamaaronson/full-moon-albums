@@ -31,8 +31,8 @@
         linear-gradient(45deg, transparent 50%, $white 50%),
         linear-gradient(135deg, $white 50%, transparent 50%);
     background-position:
-        calc(100% - 20px) calc(1em),
-        calc(100% - 15px) calc(1em),
+        calc(100% - 20px) calc(1em + 2px),
+        calc(100% - 15px) calc(1em + 2px),
         100% 0;
     background-size:
         5px 5px,

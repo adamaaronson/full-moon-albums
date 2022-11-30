@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { Album } from "./Album"
 import "../css/AlbumSorter.scss"
 import { capitalizeFirstLetter } from "./AlbumCard";
@@ -78,10 +78,11 @@ export function getFilterList(albums: Album[]) {
 export interface AlbumSorterProps {
     changeSort: (sort: Sort) => void,
     changeFilter: (filterName: string) => void,
+    currentFilter: string,
     filterList: Filter[]
 }
 
-export function AlbumSorter({ changeSort, changeFilter, filterList }: AlbumSorterProps) {
+export function AlbumSorter({ changeSort, changeFilter, currentFilter, filterList }: AlbumSorterProps) {
     const onChangeSort = (event: React.ChangeEvent<HTMLSelectElement>) => {
         changeSort(parseInt(event.target.value))
     }
@@ -103,7 +104,7 @@ export function AlbumSorter({ changeSort, changeFilter, filterList }: AlbumSorte
         </div>
         <div className="filter-by">
             <label htmlFor="album-filterer-select" className="nice-select-label">Filter by:</label>
-            <select id="album-filterer-select" className="nice-select" onChange={onChangeFilter} defaultValue={ALL_ALBUMS}>
+            <select id="album-filterer-select" className="nice-select" onChange={onChangeFilter} value={currentFilter} defaultValue={ALL_ALBUMS}>
                 {filterList.map((filter: Filter) =>
                     <option value={filter.name} key={filter.name}>{capitalizeFirstLetter(filter.name)} ({filter.count})</option>
                 )}

@@ -9,6 +9,7 @@ function App() {
     const [albums, setAlbums] = useState(getSortedAlbums(fullMoonAlbums, Sort.RecentlyAdded))
     const [allAlbums] = useState(fullMoonAlbums)
     const [sort, setSort] = useState(Sort.RecentlyAdded)
+    const [filter, setFilter] = useState(ALL_ALBUMS)
     const [filterList] = useState(getFilterList(fullMoonAlbums))
 
     const handleSortChange = (sort: Sort) => {
@@ -19,6 +20,8 @@ function App() {
     }
 
     const handleFilterChange = (filter: string) => {
+        setFilter(filter)
+
         let newAlbums = allAlbums
         if (filter !== ALL_ALBUMS) {
             newAlbums = allAlbums.filter(album => album.descriptors.includes(filter))
@@ -40,6 +43,7 @@ function App() {
                 <AlbumSorter
                     changeSort={handleSortChange}
                     changeFilter={handleFilterChange}
+                    currentFilter={filter}
                     filterList={filterList}
                 />
                 <AlbumGrid
