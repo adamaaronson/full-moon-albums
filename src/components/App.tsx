@@ -1,9 +1,9 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { AlbumGrid } from './AlbumGrid'
 import "../css/App.scss"
 import fullMoonAlbums from '../data/full-moon-albums.json';
-import { Sort, getSortedAlbums, AlbumSorter, getFilterList, ALL_ALBUMS, AlbumSorterProps, Filter } from './AlbumSorter'
-import { Album } from './Album';
+import { Sort, getSortedAlbums, AlbumSorter, getFilterList, ALL_ALBUMS } from './AlbumSorter'
+import { Header } from './Header';
 
 function App() {
     const [albums, setAlbums] = useState(getSortedAlbums(fullMoonAlbums, Sort.RecentlyAdded))
@@ -36,9 +36,9 @@ function App() {
 
     return (
         <div className="app">
-            <h1 className="app-header">
-                🌕&nbsp;&nbsp;Full Moon Albums&nbsp;&nbsp;🌕
-            </h1>
+            <header className="app-header">
+                <Header/>
+            </header>
             <main className="app-body">
                 <AlbumSorter
                     changeSort={handleSortChange}

@@ -58,6 +58,12 @@
     border-radius: $pill;
     padding: 4px 12px;
     cursor: pointer;
+
+    transition: 0.3s transform;
+
+    &:hover {
+        transform: scale(1.06)
+    }
 }
 
 .album-tracks {
@@ -70,12 +76,21 @@
 
 .spotify-logo {
     width: 35px;
+    
+}
+
+.spotify-logo:not(.no-spotify) {
     cursor: pointer;
+
+    transition: 0.3s transform;
+
+    &:hover {
+        transform: scale(1.09)
+    }
 }
 
 .no-spotify {
     opacity: 30%;
-    cursor: default;
 }
 
 .album-tracks-header {

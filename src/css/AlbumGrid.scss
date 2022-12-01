@@ -3,7 +3,7 @@
 .album-grid {
     display: grid;
     grid-gap: 2 * $spacing-unit;
-    grid-template-columns: repeat(auto-fill, minmax(297px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 
     margin-left: $spacing-unit * 2;
     margin-right: $spacing-unit * 2;

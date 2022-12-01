@@ -1,0 +1,78 @@
+@import "App.scss";
+
+$moon-emoji-size: 3em;
+$moonburst-size: max(200vw, 200vh);
+$moonburst-viewbox-size: 500px;
+$header-gap: $spacing-unit * 3;
+
+.header {
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: $header-gap;
+    font-size: 140px;
+    background: $darkest-gray;
+    overflow: hidden;
+}
+
+.header-title {
+    font-size: 1em;
+    color: $white;
+    line-height: 0.9em;
+    font-weight: 900;
+    z-index: 3;
+
+    // background: url(moonburst-bright.svg) no-repeat;
+    // background-size: $moonburst-size $moonburst-size;
+    // background-position: right 40% center;
+    // // x: center - width(header-title) - $header-gap - 0.5 * $moon-emoji-size
+    // // y: center
+    // background-clip: border-box;
+    // -webkit-background-clip: border-box;
+    // -webkit-text-fill-color: transparent;
+}
+
+.moon-image {
+    width: $moon-emoji-size;
+    height: $moon-emoji-size;
+    position: relative;
+}
+
+.full-moon-emoji {
+    width: $moon-emoji-size;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+    animation-name: spin;
+    animation-duration: 60000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+.moonburst {
+    position: absolute;
+    z-index: 1;
+    width: $moonburst-size;
+    left: calc(0.5 * $moon-emoji-size - 0.5 * $moonburst-size);
+    top: calc(0.5 * $moon-emoji-size - 0.5 * $moonburst-size);
+    overflow: hidden;
+
+    animation-name: spin;
+    animation-duration: 60000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}

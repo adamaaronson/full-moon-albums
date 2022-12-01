@@ -1,4 +1,4 @@
-$moon: #E6BC20;
+$moon: #F7CE31;
 $white: #EDF4FA;
 $gray: #ABB3BA;
 $medium-gray: #494B4D;
@@ -18,16 +18,6 @@ $pill: 8675309px;
 
 body {
     background: $darker-gray;
-}
-
-.app-header {
-    color: $white;
-    font-weight: 900;
-    font-size: 90px;
-    line-height: 90px;
-    text-align: center;
-    margin-top: $spacing-unit * 2;
-    margin-bottom: $spacing-unit * 2;
 }
 
 .app-body {
