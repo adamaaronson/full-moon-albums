@@ -1,25 +1,50 @@
 @import "App.scss";
 
-$moon-emoji-size: 3em;
+$moon-emoji-size: min(420px, 40vw);
+$moon-emoji-shift-left: max(-0.5 * $moon-emoji-size, min(0px, calc(40vw - 520px)));
 $moonburst-size: max(200vw, 200vh);
-// $moonburst-size: 1600px;
-$moonburst-viewbox-size: 500px;
-$header-gap: $spacing-unit * 3;
+$header-gap: calc(0.165 * $moon-emoji-size);
+
+$responsive-threshold: 800px;
 
 .header {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: center;
-    align-items: center;
-    gap: $header-gap;
-    font-size: 140px;
+    column-gap: $header-gap;
     background: $darkest-gray;
     overflow: hidden;
+    padding-top: $spacing-unit * 2;
+    padding-bottom: $spacing-unit * 2;
+    padding-left: calc(30vw - 3 * $header-gap);
+    padding-right: $spacing-unit * 2;
+
+    @media (max-width: $responsive-threshold) {
+        padding-left: $spacing-unit * 2;
+        padding-right: $spacing-unit * 2;
+    }
+}
+
+.moon-image-wrapper {
+    position: relative;
+    width: $moon-emoji-size;
+    height: $moon-emoji-size;
+    margin-right: $moon-emoji-size;
+    font-size: calc(0.33 * $moon-emoji-size);
+    margin-left: $moon-emoji-shift-left;
+
+    @media (max-width: $responsive-threshold) {
+        margin-top: $spacing-unit;
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.header-title-wrapper {
+    position: absolute;
 }
 
 .header-title {
-    font-size: 1em;
     font-weight: 900;
 }
 
@@ -29,23 +54,22 @@ $header-gap: $spacing-unit * 3;
     left: 0;
 }
 
-.moon-image {
-    position: relative;
-}
-
 #title-clip {
-    transform: translate(calc(0.5 * $moonburst-size + 0.5 * $moon-emoji-size + $header-gap), calc(0.5 * $moonburst-size));
+    transform: translate(
+        calc(0.5 * $moonburst-size + 0.5 * $moon-emoji-size + $header-gap),
+        calc(0.5 * $moonburst-size)
+    );
 }
 
 .rotator-wrapper {
     position: absolute;
-    top: calc(-0.5 * $moonburst-size);
-    left: calc(-0.5 * $moonburst-size);
+    top: calc(0.5 * ($moon-emoji-size - $moonburst-size));
+    left: calc(0.5 * ($moon-emoji-size - $moonburst-size));
 
     &.moon-wrapper {
         z-index: 5;
-        left: calc(-0.5 * $moon-emoji-size);
-        top: calc(-0.5 * $moon-emoji-size);
+        top: 0;
+        left: 0;
     }
 
     &.moonburst-bright-wrapper {
@@ -88,4 +112,52 @@ $header-gap: $spacing-unit * 3;
     to {
         transform:rotate(360deg);
     }
+}
+
+.header-description {
+    margin-top: 2em;
+    margin-left: calc($moon-emoji-size + $header-gap + $moon-emoji-shift-left);
+    z-index: 6;
+    font-size: 18px;
+    color: $gray;
+    line-height: 1.7em;
+    max-width: 30em;
+
+    & strong {
+        color: $white;
+    }
+
+    @media (max-width: $responsive-threshold) {
+        margin-left: 0;
+        max-width: 100%
+    }
+
+    @media (max-width: calc(0.8 * $responsive-threshold)) {
+        font-size: 16px;
+    }
+
+    p {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.moon-rating-list {
+    margin-left: 1em;
+    list-style: none;
+    margin-bottom: $spacing-unit;
+}
+
+.moon-rating {
+    margin-bottom: 0.3em;
+
+    & strong {
+        margin-right: 0.5em;
+        font-size: 1.2em;
+    }
+}
+
+.moon-rating-image {
+    width: 1.2em;
+    vertical-align: text-bottom;
+    margin-right: 0.5em;
 }
