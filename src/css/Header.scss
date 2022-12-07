@@ -1,8 +1,8 @@
 @import "App.scss";
 
-$moon-emoji-size: min(420px, 40vw);
-$moon-emoji-shift-left: max(-0.5 * $moon-emoji-size, min(0px, calc(40vw - 520px)));
-$moonburst-size: max(200vw, 200vh);
+$moon-emoji-size: min(420px, 50vw);
+$moon-emoji-shift-left: max(-0.75 * $moon-emoji-size, min(0px, calc(30vw - 520px)));
+$moonburst-size: max(300vw, 300vh);
 $header-gap: calc(0.165 * $moon-emoji-size);
 
 $responsive-threshold: 800px;
@@ -154,10 +154,15 @@ $responsive-threshold: 800px;
         margin-right: 0.5em;
         font-size: 1.2em;
     }
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .moon-rating-image {
     width: 1.2em;
     vertical-align: text-bottom;
     margin-right: 0.5em;
+    margin-bottom: 0.1em;
 }

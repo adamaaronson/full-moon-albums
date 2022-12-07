@@ -37,30 +37,38 @@ export function Header() {
             </p>
             <ul className="moon-rating-list">
                 <li className="moon-rating">
-                    <span className="moon-rating-description">
-                        <img src="crescent.png" className="moon-rating-image"></img> <strong>Crescent</strong> Okay, at least I finished it
-                    </span>
+                    <img src="crescent.png" className="moon-rating-image"></img>
+                    <div className="moon-rating-text">
+                        <strong>Crescent</strong>
+                        <span>Okay, at least I finished it</span>
+                    </div>
                 </li>
                 <li className="moon-rating">
-                    <span className="moon-rating-description">
-                        <img src="halfmoon.png" className="moon-rating-image"></img> <strong>Half Moon</strong> Pretty good, mostly enjoyable
-                    </span>
+                    <img src="halfmoon.png" className="moon-rating-image"></img>
+                    <div className="moon-rating-text">
+                        <strong>Half Moon</strong>
+                        <span>Pretty good, mostly enjoyable</span>
+                    </div>
                 </li>
                 <li className="moon-rating">
-                    <span className="moon-rating-description">
-                        <img src="gibbous.png" className="moon-rating-image"></img> <strong>Gibbous</strong> Great, overall enjoyable
-                    </span>
+                    <img src="gibbous.png" className="moon-rating-image"></img>
+                    <div className="moon-rating-text">
+                        <strong>Gibbous</strong>
+                        <span>Great, overall enjoyable</span>
+                    </div>
                 </li>
                 <li className="moon-rating">
-                    <span className="moon-rating-description">
-                        <img src="fullmoon.png" className="moon-rating-image"></img> <strong>Full Moon</strong> All bangers, no skips
-                    </span>
+                    <img src="fullmoon.png" className="moon-rating-image"></img>
+                    <div className="moon-rating-text">
+                        <strong>Full Moon</strong>
+                        <span>All bangers, no skips</span>
+                    </div>
                 </li>
             </ul>
             <p>
                 After rating <strong>900+</strong> albums,
                 these are the ones I keep coming back to,
-                the ones to play in the car from beginning to end,
+                the ones you can blast from beginning to end,
                 the ones that earned themselves a <strong>Full Moon</strong>.
             </p>
         </div>
