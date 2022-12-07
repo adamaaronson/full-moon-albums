@@ -13,7 +13,23 @@ $pill: 8675309px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif
+    font-family: 'Inter', sans-serif;
+}
+
+.app {
+    position: relative;
+}
+
+.pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(somanystars.svg);
+    background-size: 500px 500px;
+    opacity: 0.05;
+    z-index: 6;
 }
 
 body {

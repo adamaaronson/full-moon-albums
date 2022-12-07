@@ -3,7 +3,7 @@ import { AlbumGrid } from './AlbumGrid'
 import "../css/App.scss"
 import fullMoonAlbums from '../data/full-moon-albums.json';
 import { Sort, getSortedAlbums, AlbumSorter, getFilterList, ALL_ALBUMS } from './AlbumSorter'
-import { Header } from './Header';
+import { Hero } from './Hero';
 
 function App() {
     const [albums, setAlbums] = useState(getSortedAlbums(fullMoonAlbums, Sort.RecentlyAdded))
@@ -36,10 +36,11 @@ function App() {
 
     return (
         <div className="app">
+            <div className="pattern"></div>
             <header className="app-header">
-                <Header/>
+                <Hero/>
             </header>
-            <main className="app-body">
+            <main className="app-body" id="albums">
                 <AlbumSorter
                     changeSort={handleSortChange}
                     changeFilter={handleFilterChange}

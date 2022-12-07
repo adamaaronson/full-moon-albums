@@ -1,6 +1,6 @@
-import "../css/Header.scss"
+import "../css/Hero.scss"
 
-export function Header() {
+export function Hero() {
     return <div className="header">
         <div className="moon-image-wrapper">
             <div className="rotator-wrapper moon-wrapper">
@@ -67,10 +67,15 @@ export function Header() {
             </ul>
             <p>
                 After rating <strong>900+</strong> albums,
-                these are the ones I keep coming back to,
-                the ones you can blast from beginning to end,
+                these are the ones that slap from beginning to end,
+                the ones I keep coming back to,
                 the ones that earned themselves a <strong>Full Moon</strong>.
             </p>
+        </div>
+        <div className="down-arrow-wrapper">
+            <a href="#albums" className="down-arrow">
+                <span className="down-arrow-text">↓</span>
+            </a>
         </div>
     </div>
 }

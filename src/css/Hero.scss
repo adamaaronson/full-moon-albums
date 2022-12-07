@@ -1,9 +1,9 @@
 @import "App.scss";
 
 $moon-emoji-size: min(420px, 50vw);
-$moon-emoji-shift-left: max(-0.75 * $moon-emoji-size, min(0px, calc(30vw - 520px)));
 $moonburst-size: max(300vw, 300vh);
 $header-gap: calc(0.165 * $moon-emoji-size);
+$moon-emoji-shift-left: calc(clamp(25vw - 500px, 0px, -0.85 * $moon-emoji-size) + 30vw - 3 * $header-gap);
 
 $responsive-threshold: 800px;
 
@@ -12,13 +12,10 @@ $responsive-threshold: 800px;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    column-gap: $header-gap;
     background: $darkest-gray;
     overflow: hidden;
-    padding-top: $spacing-unit * 2;
-    padding-bottom: $spacing-unit * 2;
-    padding-left: calc(30vw - 3 * $header-gap);
-    padding-right: $spacing-unit * 2;
+
+    padding: $spacing-unit * 2;
 
     @media (max-width: $responsive-threshold) {
         padding-left: $spacing-unit * 2;
@@ -33,11 +30,6 @@ $responsive-threshold: 800px;
     margin-right: $moon-emoji-size;
     font-size: calc(0.33 * $moon-emoji-size);
     margin-left: $moon-emoji-shift-left;
-
-    @media (max-width: $responsive-threshold) {
-        margin-top: $spacing-unit;
-        margin-bottom: $spacing-unit;
-    }
 }
 
 .header-title-wrapper {
@@ -165,4 +157,51 @@ $responsive-threshold: 800px;
     vertical-align: text-bottom;
     margin-right: 0.5em;
     margin-bottom: 0.1em;
+}
+
+.down-arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    z-index: 7;
+}
+
+.down-arrow {
+    margin-top: $spacing-unit;
+    background: $dark-gray;
+    color: $gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: $pill;
+    font-size: 24px;
+    font-weight: bold;
+    width: 2em;
+    height: 2em;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s transform;
+
+    &:hover {
+        transform: scale(1.06)
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.down-arrow-text {
+    animation: 1.5s bob ease-in-out infinite;
+}
+
+@keyframes bob {
+    0% {
+        transform: translate(0, -2px);
+    }
+    50% {
+        transform: translate(0, 2px);
+    }
+    100% {
+        transform: translate(0, -2px);
+    }
 }
