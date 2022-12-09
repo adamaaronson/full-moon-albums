@@ -127,7 +127,7 @@ export function AlbumSorter({ changeSort, changeFilter, currentFilter, filterLis
         </div>
         <div className="filter-by">
             <label htmlFor="album-filterer-select" className="nice-select-label">Filter by:</label>
-            <select id="album-filterer-select" className="nice-select" onChange={onChangeFilter} value={currentFilter} defaultValue={ALL_ALBUMS}>
+            <select id="album-filterer-select" className="nice-select" onChange={onChangeFilter} value={currentFilter}>
                 {filterList.map((filter: Filter) =>
                     <option value={filter.name} key={filter.name}>{capitalizeFirstLetter(filter.name)} ({filter.count})</option>
                 )}
