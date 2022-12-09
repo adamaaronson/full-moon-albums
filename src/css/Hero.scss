@@ -3,7 +3,7 @@
 $moon-emoji-size: min(420px, 50vw);
 $moonburst-size: max(300vw, 300vh);
 $header-gap: calc(0.165 * $moon-emoji-size);
-$moon-emoji-shift-left: calc(clamp(25vw - 500px, 0px, -0.85 * $moon-emoji-size) + 30vw - 3 * $header-gap);
+$moon-emoji-shift-left: calc(clamp(25vw - 500px, 0px, -0.92 * $moon-emoji-size) + 30vw - 3 * $header-gap);
 
 $responsive-threshold: 800px;
 
@@ -137,6 +137,11 @@ $responsive-threshold: 800px;
     margin-left: 1em;
     list-style: none;
     margin-bottom: $spacing-unit;
+
+    @media (max-width: calc(0.8 * $responsive-threshold)) {
+        font-size: 14px;
+        margin-left: 0.5em;
+    }
 }
 
 .moon-rating {
@@ -145,6 +150,10 @@ $responsive-threshold: 800px;
     & strong {
         margin-right: 0.5em;
         font-size: 1.2em;
+
+        @media (max-width: calc(0.8 * $responsive-threshold)) {
+            font-size: 16px;
+        }
     }
 
     display: flex;
@@ -157,6 +166,10 @@ $responsive-threshold: 800px;
     margin-right: 0.5em;
     align-self: flex-start;
     margin-top: 0.2em;
+
+    @media (max-width: calc(0.8 * $responsive-threshold)) {
+        margin-top: 0.3em;
+    }
 }
 
 .down-arrow-wrapper {
