@@ -4,6 +4,7 @@ import "../css/App.scss"
 import fullMoonAlbums from '../data/full-moon-albums.json';
 import { Sort, getSortedAlbums, AlbumSorter, getFilterList, ALL_ALBUMS } from './AlbumSorter'
 import { Hero } from './Hero';
+import { Footer } from './Footer';
 
 function App() {
     const [albums, setAlbums] = useState(getSortedAlbums(fullMoonAlbums, Sort.RecentlyAdded))
@@ -37,9 +38,9 @@ function App() {
     return (
         <div className="app">
             <div className="pattern"></div>
-            <header className="app-header">
+            <section className="app-hero">
                 <Hero/>
-            </header>
+            </section>
             <main className="app-body" id="albums">
                 <AlbumSorter
                     changeSort={handleSortChange}
@@ -52,6 +53,9 @@ function App() {
                     onClickFilter={handleFilterClick}
                 />
             </main>
+            <footer className="app-footer">
+                <Footer/>
+            </footer>
         </div>
     )
 }

@@ -18,6 +18,7 @@ $pill: 8675309px;
 
 .app {
     position: relative;
+    overflow: hidden;
 }
 
 .pattern {
@@ -30,6 +31,8 @@ $pill: 8675309px;
     background-size: 500px 500px;
     opacity: 0.05;
     z-index: 6;
+    animation: sway 5s ease-in-out infinite;
+    pointer-events: none;
 }
 
 body {
@@ -39,4 +42,16 @@ body {
 .app-body {
     margin: auto;
     max-width: 1400px;
+}
+
+@keyframes sway {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(7px);
+    }
+    0% {
+        transform: translateX(0px);
+    }
 }

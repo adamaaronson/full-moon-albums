@@ -154,9 +154,9 @@ $responsive-threshold: 800px;
 
 .moon-rating-image {
     width: 1.2em;
-    vertical-align: text-bottom;
     margin-right: 0.5em;
-    margin-bottom: 0.1em;
+    align-self: flex-start;
+    margin-top: 0.2em;
 }
 
 .down-arrow-wrapper {

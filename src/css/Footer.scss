@@ -1,0 +1,29 @@
+@import "App.scss";
+
+.app-footer {
+    color: $gray;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: $spacing-unit * 2;
+    margin-left: $spacing-unit * 2;
+    margin-right: $spacing-unit * 2;
+    z-index: 10;
+
+    & a {
+        color: $white;
+        text-decoration: none;
+        font-weight: bold;
+
+        transition: 0.5s color;
+
+        &:hover {
+            color: $moon;
+        }
+    }
+}
+
+.app-footer-text {
+    text-align: center;
+}

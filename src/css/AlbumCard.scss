@@ -19,6 +19,8 @@
 .album-image {
     width: 100%;
     margin-bottom: $spacing-unit;
+    position: relative;
+    z-index: 10;
 }
 
 .album-title {
@@ -76,7 +78,8 @@
 
 .spotify-logo {
     width: 35px;
-    
+    position: relative;
+    z-index: 10;
 }
 
 .spotify-logo:not(.no-spotify) {

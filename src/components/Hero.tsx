@@ -67,7 +67,7 @@ export function Hero() {
             </ul>
             <p>
                 After rating <strong>900+</strong> albums,
-                these are the ones that slap from beginning to end,
+                these are the ones that slap from start to finish,
                 the ones I keep coming back to,
                 the ones that earned themselves a <strong>Full Moon</strong>.
             </p>
