@@ -69,9 +69,8 @@ export function Hero() {
                 After rating <strong>900+</strong> albums,
                 these are the ones that slap from start to finish,
                 the ones I keep coming back to,
-                the ones that earned themselves a <strong>Full Moon</strong>.
-                <a className="learn-more" href="https://aaronson.org/blog/full-moon-albums" rel="noreferrer noopener" target="_blank">
-                    learn more →
+                the ones that earned themselves a <strong>Full Moon</strong>. <a className="learn-more" href="https://aaronson.org/blog/full-moon-albums" rel="noreferrer noopener" target="_blank">
+                    learn&nbsp;more&nbsp;→
                 </a>
             </p>
         </div>
