@@ -218,3 +218,16 @@ html {
         transform: translate(0, -2px);
     }
 }
+
+.learn-more {
+    font-size: 0.8em;
+    color: $gray;
+    text-decoration: none;
+    margin-left: 0.5em;
+
+    transition: 0.3s color;
+
+    &:hover {
+        color: $moon;
+    }
+}
