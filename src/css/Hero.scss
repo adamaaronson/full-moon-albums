@@ -229,4 +229,13 @@ html {
     &:hover {
         color: $moon;
     }
+
+    .learn-more-arrow {
+        transition: 0.3s transform;
+        display: inline-block;
+    }
+
+    &:hover > .learn-more-arrow {
+        transform: translateX(2px);
+    }
 }

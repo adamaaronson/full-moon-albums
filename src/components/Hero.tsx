@@ -70,7 +70,7 @@ export function Hero() {
                 these are the ones that slap from start to finish,
                 the ones I keep coming back to,
                 the ones that earned themselves a <strong>Full Moon</strong>. <a className="learn-more" href="https://aaronson.org/blog/full-moon-albums" rel="noreferrer noopener" target="_blank">
-                    learn&nbsp;more&nbsp;→
+                    learn&nbsp;more&nbsp;<span className="learn-more-arrow">→</span>
                 </a>
             </p>
         </div>
