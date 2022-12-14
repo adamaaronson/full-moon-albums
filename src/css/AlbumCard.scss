@@ -8,12 +8,28 @@
     display: flex;
     justify-content: space-between;
     flex-flow: column wrap;
+    position: relative;
 
     transition: 0.3s transform;
 
     &:hover {
         transform: scale(1.03)
     }
+}
+
+.album-card-recent:before {
+    content: "new";
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $darkest-gray;
+    font-weight: bold;
+    background: $moon;
+    font-size: 12px;
+    border-radius: $pill;
+    padding: 2px 10px;
 }
 
 .album-image {

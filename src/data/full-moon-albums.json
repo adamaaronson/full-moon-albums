@@ -1290,5 +1290,56 @@
         "album_url": "https://open.spotify.com/album/57Xg6JumEnG5i5MBzJVdT7",
         "image_url": "https://i.scdn.co/image/ab67616d0000b2737bed62fe63257e9edfe3bcb4",
         "date_added": "2022-07-16"
+    },
+    {
+        "title": "Oh No! It's Devo",
+        "artist": "Devo",
+        "year": "1982",
+        "descriptors": [
+            "new wave",
+            "groovy",
+            "synth pop"
+        ],
+        "tracks": [
+            "Time Out For Fun",
+            "Big Mess"
+        ],
+        "album_url": "https://open.spotify.com/album/7MGYfjJpx6XsA2B2VhtZ6S",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273c4622741b387073c76bbe553",
+        "date_added": "2022-12-12"
+    },
+    {
+        "title": "Blazing Arrow",
+        "artist": "Blackalicious",
+        "year": "2002",
+        "descriptors": [
+            "hip hop",
+            "funky",
+            "jazzy"
+        ],
+        "tracks": [
+            "Green Light: Now Begin",
+            "Make You Feel That Way"
+        ],
+        "album_url": "https://open.spotify.com/album/0DyXkWHnFMIJSuHfLgNfcc",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b2738c8df6078836c1dd3df5a19a",
+        "date_added": "2022-12-13"
+    },
+    {
+        "title": "106",
+        "artist": "Jacob Mann",
+        "year": "2020-08-28",
+        "descriptors": [
+            "jazzy",
+            "electronic",
+            "minimal"
+        ],
+        "tracks": [
+            "Ziti",
+            "Barstow"
+        ],
+        "album_url": "https://open.spotify.com/album/7IsKUm4ZolGXJUKqrAejU8",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273b4a4725f48e95f983d06f384",
+        "date_added": "2022-12-14"
     }
 ]

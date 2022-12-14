@@ -1,5 +1,6 @@
 import { Album } from "./Album"
 import "../css/AlbumCard.scss"
+import { useState } from "react";
 
 export interface AlbumCardProps {
     album: Album,
@@ -10,8 +11,14 @@ export function capitalizeFirstLetter(str: string) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
+function isRecentlyAdded(album: Album) {
+    const albumAddDate = new Date(Date.parse(album.date_added));
+    const aWeekAgo = new Date(Date.now() - 604800000);
+    return albumAddDate > aWeekAgo;
+}
+
 export function AlbumCard({ album, onClickFilter }: AlbumCardProps) {
-    return <div className="album-card">
+    return <div className={"album-card" + (isRecentlyAdded(album) ? " album-card-recent" : "")}>
         <div className="album-info">
             <img src={album.image_url} className="album-image" width="200px"></img>
             <h2 className="album-title">
