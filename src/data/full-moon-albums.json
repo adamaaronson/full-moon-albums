@@ -1341,5 +1341,22 @@
         "album_url": "https://open.spotify.com/album/7IsKUm4ZolGXJUKqrAejU8",
         "image_url": "https://i.scdn.co/image/ab67616d0000b273b4a4725f48e95f983d06f384",
         "date_added": "2022-12-14"
+    },
+    {
+        "title": "The State of Things",
+        "artist": "Quentin Angus",
+        "year": "2022-03-18",
+        "descriptors": [
+            "jazz",
+            "mellow",
+            "groovy"
+        ],
+        "tracks": [
+            "Broken Bones",
+            "New York Muster"
+        ],
+        "album_url": "https://open.spotify.com/album/3Fi2Gv0IRBHzuYQSBqxknc",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273a4702b44420110273f3d95ee",
+        "date_added": "2022-12-19"
     }
 ]
