@@ -118,8 +118,8 @@ export function AlbumSorter({ changeSort, changeFilter, currentFilter, filterLis
             <label htmlFor="album-sorter-select" className="nice-select-label">Sort by:</label>
             <select id="album-sorter-select" className="nice-select" onChange={onChangeSort} defaultValue="0">
                 <option value={Sort.RecentlyAdded}>Recently added</option>
-                <option value={Sort.OldestToNewest}>Oldest to newest</option>
                 <option value={Sort.NewestToOldest}>Newest to oldest</option>
+                <option value={Sort.OldestToNewest}>Oldest to newest</option>
                 <option value={Sort.AlbumName}>Album name</option>
                 <option value={Sort.ArtistName}>Artist name</option>
                 <option value={Sort.Random}>Random</option>
