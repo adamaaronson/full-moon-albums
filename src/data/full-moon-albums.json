@@ -1358,5 +1358,22 @@
         "album_url": "https://open.spotify.com/album/3Fi2Gv0IRBHzuYQSBqxknc",
         "image_url": "https://i.scdn.co/image/ab67616d0000b273a4702b44420110273f3d95ee",
         "date_added": "2022-12-19"
+    },
+    {
+        "title": "Crisis & Opportunity, Vol. 2 - Peaks",
+        "artist": "Myele Manzanza",
+        "year": "2021-11-19",
+        "descriptors": [
+            "jazz",
+            "groovy",
+            "electronic"
+        ],
+        "tracks": [
+            "The People's Changes",
+            "A Night in Berlin"
+        ],
+        "album_url": "https://open.spotify.com/album/6eBaDGLTxVhEZPEdTnSYCS",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273d75a52827f4a8ab7fd5a5131",
+        "date_added": "2022-12-22"
     }
 ]
