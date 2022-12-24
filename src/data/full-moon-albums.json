@@ -1375,5 +1375,22 @@
         "album_url": "https://open.spotify.com/album/6eBaDGLTxVhEZPEdTnSYCS",
         "image_url": "https://i.scdn.co/image/ab67616d0000b273d75a52827f4a8ab7fd5a5131",
         "date_added": "2022-12-22"
+    },
+    {
+        "title": "Too Much to Ask",
+        "artist": "Cheekface",
+        "year": "2022-08-02",
+        "descriptors": [
+            "punk",
+            "groovy",
+            "goofy"
+        ],
+        "tracks": [
+            "Pledge Drive",
+            "Featured Singer"
+        ],
+        "album_url": "https://open.spotify.com/album/233GvGeKMsNHQgGvclrhC6",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b27391c428cd2ffa886adefb29ff",
+        "date_added": "2022-12-23"
     }
 ]
