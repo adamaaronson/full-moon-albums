@@ -1392,5 +1392,22 @@
         "album_url": "https://open.spotify.com/album/233GvGeKMsNHQgGvclrhC6",
         "image_url": "https://i.scdn.co/image/ab67616d0000b27391c428cd2ffa886adefb29ff",
         "date_added": "2022-12-23"
+    },
+    {
+        "title": "Below the Heavens",
+        "artist": "Blu & Exile",
+        "year": "2007",
+        "descriptors": [
+            "hip hop",
+            "jazzy",
+            "soulful"
+        ],
+        "tracks": [
+            "Juice n' Dranks",
+            "Dancing in the Rain"
+        ],
+        "album_url": "https://open.spotify.com/album/2OnNdRdzqs0Xe6VU2uGdPe",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273a1e2527fab9bcd9826e06cd4",
+        "date_added": "2022-12-27"
     }
 ]
