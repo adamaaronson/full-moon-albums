@@ -434,7 +434,7 @@
             "groovy"
         ],
         "tracks": [
-            "We Like to Party! (The Vengabus)",
+            "Up & Down",
             "The Vengabeat"
         ],
         "album_url": "https://open.spotify.com/album/2hy9sLDt7IVAvJRGVdzZnx",
@@ -1409,5 +1409,22 @@
         "album_url": "https://open.spotify.com/album/2OnNdRdzqs0Xe6VU2uGdPe",
         "image_url": "https://i.scdn.co/image/ab67616d0000b273a1e2527fab9bcd9826e06cd4",
         "date_added": "2022-12-27"
+    },
+    {
+        "title": "Ruby Vroom",
+        "artist": "Soul Coughing",
+        "year": "1994",
+        "descriptors": [
+            "alt rock",
+            "jazzy",
+            "hip hop"
+        ],
+        "tracks": [
+            "Casiotone Nation",
+            "Down to This"
+        ],
+        "album_url": "https://open.spotify.com/album/6JHowYqtDso2k1ji5H7vUy",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273c189f0df7d6fe7d4bf23dde9",
+        "date_added": "2022-12-28"
     }
 ]
