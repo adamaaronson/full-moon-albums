@@ -1426,5 +1426,22 @@
         "album_url": "https://open.spotify.com/album/6JHowYqtDso2k1ji5H7vUy",
         "image_url": "https://i.scdn.co/image/ab67616d0000b273c189f0df7d6fe7d4bf23dde9",
         "date_added": "2022-12-28"
+    },
+    {
+        "title": "Fantastic, Vol.\u00A02",
+        "artist": "Slum Village",
+        "year": "2000",
+        "descriptors": [
+            "hip hop",
+            "funky",
+            "stanky"
+        ],
+        "tracks": [
+            "Get Dis Money",
+            "Players"
+        ],
+        "album_url": "https://open.spotify.com/album/22IhsI5JpldSrE7vhidAja",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b2733999c60eca1a87fd7e7868bc",
+        "date_added": "2023-01-11"
     }
 ]
