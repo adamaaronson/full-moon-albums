@@ -9,7 +9,7 @@ edge_cases = {
         'album_url': '',
         'image_url': '3feethighandrising.jpg'
     },
-    ('Slum Village', 'Fantastic, Vol. 2'): {
+    ('Slum Village', 'Fantastic, Vol.\u00a02'): {
         'album_url': 'https://open.spotify.com/album/22IhsI5JpldSrE7vhidAja',
         'image_url': 'https://i.scdn.co/image/ab67616d0000b2733999c60eca1a87fd7e7868bc'
     }
@@ -56,6 +56,8 @@ def read_albums_from_csv(csv_file, json_file=None):
         albums = []
         for row in reader:
             album, artist, year, descriptors, song1, song2, date_added = row
+
+            album = album.replace('Vol. ', 'Vol.\u00A0')
 
             if (artist, album) in albums_in_json:
                 albums.append(albums_in_json[artist, album])

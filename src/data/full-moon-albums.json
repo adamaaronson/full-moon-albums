@@ -969,7 +969,7 @@
         "date_added": "2022-06-27"
     },
     {
-        "title": "Djesse Vol. 2",
+        "title": "Djesse Vol.\u00a02",
         "artist": "Jacob Collier",
         "year": "2019",
         "descriptors": [
@@ -1054,7 +1054,7 @@
         "date_added": "2022-07-02"
     },
     {
-        "title": "Djesse Vol. 3",
+        "title": "Djesse Vol.\u00a03",
         "artist": "Jacob Collier",
         "year": "2020-08-14",
         "descriptors": [
@@ -1241,7 +1241,7 @@
         "date_added": "2022-07-13"
     },
     {
-        "title": "Greatest Hits, Vol. 3",
+        "title": "Greatest Hits, Vol.\u00a03",
         "artist": "Jacob Mann Big Band",
         "year": "2022-04-01",
         "descriptors": [
@@ -1360,7 +1360,7 @@
         "date_added": "2022-12-19"
     },
     {
-        "title": "Crisis & Opportunity, Vol. 2 - Peaks",
+        "title": "Crisis & Opportunity, Vol.\u00a02 - Peaks",
         "artist": "Myele Manzanza",
         "year": "2021-11-19",
         "descriptors": [
@@ -1428,7 +1428,7 @@
         "date_added": "2022-12-28"
     },
     {
-        "title": "Fantastic, Vol.\u00A02",
+        "title": "Fantastic, Vol.\u00a02",
         "artist": "Slum Village",
         "year": "2000",
         "descriptors": [
@@ -1443,5 +1443,22 @@
         "album_url": "https://open.spotify.com/album/22IhsI5JpldSrE7vhidAja",
         "image_url": "https://i.scdn.co/image/ab67616d0000b2733999c60eca1a87fd7e7868bc",
         "date_added": "2023-01-11"
+    },
+    {
+        "title": "Donuts",
+        "artist": "J Dilla",
+        "year": "2006",
+        "descriptors": [
+            "sampledelia",
+            "wonky",
+            "soulful"
+        ],
+        "tracks": [
+            "Lightworks",
+            "Two Can Win"
+        ],
+        "album_url": "https://open.spotify.com/album/5fMlysqhFE0itGn4KezMBW",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b27383bb78285449998bb974da45",
+        "date_added": "2023-01-15"
     }
 ]
