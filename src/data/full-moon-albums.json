@@ -1460,5 +1460,22 @@
         "album_url": "https://open.spotify.com/album/5fMlysqhFE0itGn4KezMBW",
         "image_url": "https://i.scdn.co/image/ab67616d0000b27383bb78285449998bb974da45",
         "date_added": "2023-01-15"
+    },
+    {
+        "title": "Raise!",
+        "artist": "Earth, Wind & Fire",
+        "year": "1981",
+        "descriptors": [
+            "funky",
+            "jazzy",
+            "disco"
+        ],
+        "tracks": [
+            "You Are a Winner",
+            "The Changing Times"
+        ],
+        "album_url": "https://open.spotify.com/album/1hj1SYbJYdXloRiSjsCLXg",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273b30c8b93cef6fa26f8a7f17a",
+        "date_added": "2023-02-08"
     }
 ]
