@@ -1477,5 +1477,22 @@
         "album_url": "https://open.spotify.com/album/1hj1SYbJYdXloRiSjsCLXg",
         "image_url": "https://i.scdn.co/image/ab67616d0000b273b30c8b93cef6fa26f8a7f17a",
         "date_added": "2023-02-08"
+    },
+    {
+        "title": "Tourist History",
+        "artist": "Two Door Cinema Club",
+        "year": "2010",
+        "descriptors": [
+            "indie pop",
+            "groovy",
+            "punk"
+        ],
+        "tracks": [
+            "Cigarettes in the Theatre",
+            "You're Not Stubborn"
+        ],
+        "album_url": "https://open.spotify.com/album/0wNjC8d3ve2L2yaomEWUsa",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273585f3d70dce678a5978a0941",
+        "date_added": "2023-02-23"
     }
 ]
