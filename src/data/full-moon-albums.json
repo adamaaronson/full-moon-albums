@@ -1494,5 +1494,22 @@
         "album_url": "https://open.spotify.com/album/0wNjC8d3ve2L2yaomEWUsa",
         "image_url": "https://i.scdn.co/image/ab67616d0000b273585f3d70dce678a5978a0941",
         "date_added": "2023-02-23"
+    },
+    {
+        "title": "Suzuki",
+        "artist": "Tosca",
+        "year": "2000",
+        "descriptors": [
+            "trip hop",
+            "ambient",
+            "electronic"
+        ],
+        "tracks": [
+            "Suzuki",
+            "Boss on the Boat"
+        ],
+        "album_url": "https://open.spotify.com/album/3mMCQiZaRbwPhn1I3vdFRP",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273253a1b35c8c2995bebe300af",
+        "date_added": "2023-03-01"
     }
 ]
