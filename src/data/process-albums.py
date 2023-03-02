@@ -59,14 +59,13 @@ def read_albums_from_csv(csv_file, json_file=None):
 
             album = album.replace('Vol. ', 'Vol.\u00A0')
 
-            if (artist, album) in albums_in_json:
-                albums.append(albums_in_json[artist, album])
-                continue
-
             if album == 'Album' and artist == 'Artist':
                 continue
-            
-            if (artist, album) in edge_cases:
+                
+            if (artist, album) in albums_in_json:
+                album_url = albums_in_json[artist, album]['album_url']
+                image_url = albums_in_json[artist, album]['image_url']
+            elif (artist, album) in edge_cases:
                 album_url, image_url = edge_cases[artist, album]['album_url'], edge_cases[artist, album]['image_url']
             else:
                 album_url, image_url = get_album_urls(artist, album)
