@@ -5,10 +5,6 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
 edge_cases = {
-    ('De La Soul', '3 Feet High and Rising'): {
-        'album_url': '',
-        'image_url': '3feethighandrising.jpg'
-    },
     ('Slum Village', 'Fantastic, Vol.\u00a02'): {
         'album_url': 'https://open.spotify.com/album/22IhsI5JpldSrE7vhidAja',
         'image_url': 'https://i.scdn.co/image/ab67616d0000b2733999c60eca1a87fd7e7868bc'
