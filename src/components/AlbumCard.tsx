@@ -17,8 +17,27 @@ function isRecentlyAdded(album: Album) {
     return albumAddDate > aWeekAgo;
 }
 
+function getAddedDateString(album: Album) {
+    return new Date(Date.parse(album.date_added)).toLocaleDateString('en-us', {
+        timeZone: 'UTC',
+        day: 'numeric',
+        month: 'short',
+        year: 'numeric'
+    }).replaceAll('/', '-')
+}
+
 export function AlbumCard({ album, onClickFilter }: AlbumCardProps) {
-    return <div className={"album-card" + (isRecentlyAdded(album) ? " album-card-recent" : "")}>
+    const [showingNewDate, setShowingNewDate] = useState(false);
+
+    return <div className={"album-card" + (isRecentlyAdded(album) ? " album-card-recent" : "")}
+                onMouseOver={() => setShowingNewDate(true)}
+                onMouseOut={() => setShowingNewDate(false)}>
+        <div className={"album-date-label" + (isRecentlyAdded(album) ? " album-date-label-new" : "")}>
+            <img className="album-date-label-moon" src="fullmoon.png" />
+            <div className="album-date-label-text">
+                {isRecentlyAdded(album) && !showingNewDate ? "NEW" : getAddedDateString(album)}
+            </div>
+        </div>
         <div className="album-info">
             <img src={album.image_url} className="album-image" width="200px"></img>
             <h2 className="album-title">

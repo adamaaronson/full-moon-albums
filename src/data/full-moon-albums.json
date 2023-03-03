@@ -1511,5 +1511,22 @@
         "album_url": "https://open.spotify.com/album/3mMCQiZaRbwPhn1I3vdFRP",
         "image_url": "https://i.scdn.co/image/ab67616d0000b273253a1b35c8c2995bebe300af",
         "date_added": "2023-03-01"
+    },
+    {
+        "title": "De La Soul Is Dead",
+        "artist": "De La Soul",
+        "year": "1991",
+        "descriptors": [
+            "hip hop",
+            "funky",
+            "jazzy"
+        ],
+        "tracks": [
+            "Pease Porridge",
+            "Ring Ring Ring (Ha Ha Hey)"
+        ],
+        "album_url": "https://open.spotify.com/album/5F3GEttPPR58Gg15BKUsTd",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273ee3e86f9a12e311701f5fcda",
+        "date_added": "2023-03-03"
     }
 ]

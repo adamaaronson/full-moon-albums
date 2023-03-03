@@ -17,19 +17,32 @@
     }
 }
 
-.album-card-recent:before {
+.album-date-label {
     content: "• new •";
-    text-transform: uppercase;
     position: absolute;
     top: 0;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: $darkest-gray;
-    font-weight: bold;
-    background: $moon;
+    color: $white;
+    background: $medium-gray;
     font-size: 12px;
     border-radius: $pill;
-    padding: 2px 10px;
+    padding: 4px 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+
+    img {
+        height: 1em;
+    }
+
+    &.album-date-label-new {
+        background: $moon;
+        color: $darkest-gray;
+        font-weight: bold;
+    }
 }
 
 .album-image {
