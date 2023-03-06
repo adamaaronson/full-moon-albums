@@ -1528,5 +1528,22 @@
         "album_url": "https://open.spotify.com/album/5F3GEttPPR58Gg15BKUsTd",
         "image_url": "https://i.scdn.co/image/ab67616d0000b273ee3e86f9a12e311701f5fcda",
         "date_added": "2023-03-03"
+    },
+    {
+        "title": "Buhloone Mindstate",
+        "artist": "De La Soul",
+        "year": "1993",
+        "descriptors": [
+            "hip hop",
+            "jazzy",
+            "funky"
+        ],
+        "tracks": [
+            "En Focus",
+            "I Am I Be"
+        ],
+        "album_url": "https://open.spotify.com/album/4ajtfXfaqumfNlJDTVjhOd",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273425d6882cbb8165986ca7c40",
+        "date_added": "2023-03-05"
     }
 ]
