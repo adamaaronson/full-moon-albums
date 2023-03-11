@@ -8,6 +8,10 @@ edge_cases = {
     ('Slum Village', 'Fantastic, Vol.\u00a02'): {
         'album_url': 'https://open.spotify.com/album/22IhsI5JpldSrE7vhidAja',
         'image_url': 'https://i.scdn.co/image/ab67616d0000b2733999c60eca1a87fd7e7868bc'
+    },
+    ('Todd Edwards', 'Prima Edizione'): {
+        'album_url': 'https://open.spotify.com/album/6SRbCAQ1zu2r47Bi771rAs',
+        'image_url': 'primaedizione.jpg'
     }
 } 
 

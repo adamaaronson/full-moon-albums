@@ -1545,5 +1545,22 @@
         "album_url": "https://open.spotify.com/album/4ajtfXfaqumfNlJDTVjhOd",
         "image_url": "https://i.scdn.co/image/ab67616d0000b273425d6882cbb8165986ca7c40",
         "date_added": "2023-03-05"
+    },
+    {
+        "title": "Prima Edizione",
+        "artist": "Todd Edwards",
+        "year": "1999",
+        "descriptors": [
+            "UK garage",
+            "house",
+            "funky"
+        ],
+        "tracks": [
+            "Steal U're Heart",
+            "Can't Live Without You"
+        ],
+        "album_url": "https://open.spotify.com/album/6SRbCAQ1zu2r47Bi771rAs",
+        "image_url": "primaedizione.jpg",
+        "date_added": "2023-03-10"
     }
 ]
