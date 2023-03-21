@@ -1562,5 +1562,22 @@
         "album_url": "https://open.spotify.com/album/6SRbCAQ1zu2r47Bi771rAs",
         "image_url": "primaedizione.jpg",
         "date_added": "2023-03-10"
+    },
+    {
+        "title": "ANEW",
+        "artist": "JENE",
+        "year": "2022",
+        "descriptors": [
+            "electronic",
+            "jazzy",
+            "breakbeat"
+        ],
+        "tracks": [
+            "Will U Ever Know?",
+            "Poker Face"
+        ],
+        "album_url": "https://open.spotify.com/album/25rXXmmA3gd6m23dhV1VIh",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b27364780107a9b076297362f049",
+        "date_added": "2023-03-21"
     }
 ]
