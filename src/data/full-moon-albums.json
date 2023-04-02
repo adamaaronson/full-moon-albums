@@ -1579,5 +1579,22 @@
         "album_url": "https://open.spotify.com/album/25rXXmmA3gd6m23dhV1VIh",
         "image_url": "https://i.scdn.co/image/ab67616d0000b27364780107a9b076297362f049",
         "date_added": "2023-03-21"
+    },
+    {
+        "title": "Ambient 1: Music for Airports",
+        "artist": "Brian Eno",
+        "year": "1978",
+        "descriptors": [
+            "ambient",
+            "electronic",
+            "minimalist"
+        ],
+        "tracks": [
+            "1/1",
+            "2/1"
+        ],
+        "album_url": "https://open.spotify.com/album/063f8Ej8rLVTz9KkjQKEMa",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b27337a379ca6520eaf191de6ff2",
+        "date_added": "2023-03-31"
     }
 ]
