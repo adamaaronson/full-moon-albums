@@ -1596,5 +1596,22 @@
         "album_url": "https://open.spotify.com/album/063f8Ej8rLVTz9KkjQKEMa",
         "image_url": "https://i.scdn.co/image/ab67616d0000b27337a379ca6520eaf191de6ff2",
         "date_added": "2023-03-31"
+    },
+    {
+        "title": "Choose Your Weapon",
+        "artist": "Hiatus Kaiyote",
+        "year": "2015",
+        "descriptors": [
+            "neo soul",
+            "jazzy",
+            "stanky"
+        ],
+        "tracks": [
+            "Jekyll",
+            "Atari"
+        ],
+        "album_url": "https://open.spotify.com/album/3qzmmmRmVBiOuMvrerfW4z",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b27365c29c4a590e9e9b03467c5a",
+        "date_added": "2023-04-11"
     }
 ]
