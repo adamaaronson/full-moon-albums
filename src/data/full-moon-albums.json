@@ -1604,7 +1604,7 @@
         "descriptors": [
             "neo soul",
             "jazzy",
-            "stanky"
+            "wonky"
         ],
         "tracks": [
             "Jekyll",
@@ -1613,5 +1613,22 @@
         "album_url": "https://open.spotify.com/album/3qzmmmRmVBiOuMvrerfW4z",
         "image_url": "https://i.scdn.co/image/ab67616d0000b27365c29c4a590e9e9b03467c5a",
         "date_added": "2023-04-11"
+    },
+    {
+        "title": "Your Drunken Soundtrack",
+        "artist": "Max Ox",
+        "year": "2014",
+        "descriptors": [
+            "jazzy",
+            "electronic",
+            "wonky"
+        ],
+        "tracks": [
+            "Plan D",
+            "Penguin Time"
+        ],
+        "album_url": "https://open.spotify.com/album/2blEyPKFkaAQx21ErYycYL",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b27330551568434dca592278c7f3",
+        "date_added": "2023-04-12"
     }
 ]
