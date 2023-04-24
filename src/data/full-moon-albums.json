@@ -1630,5 +1630,22 @@
         "album_url": "https://open.spotify.com/album/2blEyPKFkaAQx21ErYycYL",
         "image_url": "https://i.scdn.co/image/ab67616d0000b27330551568434dca592278c7f3",
         "date_added": "2023-04-12"
+    },
+    {
+        "title": "SCARING THE HOES",
+        "artist": "JPEGMAFIA & Danny Brown",
+        "year": "2023",
+        "descriptors": [
+            "hip hop",
+            "wonky",
+            "sampledelia"
+        ],
+        "tracks": [
+            "Fentanyl Tester",
+            "Burfict!"
+        ],
+        "album_url": "https://open.spotify.com/album/3u20OXh03DjCUzbf8XcGTq",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b2738cf4c85912fdeb106707fb4c",
+        "date_added": "2023-04-24"
     }
 ]
