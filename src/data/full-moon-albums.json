@@ -1647,5 +1647,22 @@
         "album_url": "https://open.spotify.com/album/3u20OXh03DjCUzbf8XcGTq",
         "image_url": "https://i.scdn.co/image/ab67616d0000b2738cf4c85912fdeb106707fb4c",
         "date_added": "2023-04-24"
+    },
+    {
+        "title": "That! Feels Good!",
+        "artist": "Jessie Ware",
+        "year": "2023",
+        "descriptors": [
+            "disco",
+            "funky",
+            "poppy"
+        ],
+        "tracks": [
+            "Free Yourself",
+            "Beautiful People"
+        ],
+        "album_url": "https://open.spotify.com/album/17g3sAeWfpHSJlqMHuRAr6",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273911ebd2541f086d8c9f7952d",
+        "date_added": "2023-04-28"
     }
 ]
