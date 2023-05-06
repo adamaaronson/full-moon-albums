@@ -1566,7 +1566,7 @@
     {
         "title": "ANEW",
         "artist": "JENE",
-        "year": "2022",
+        "year": "2022-08-20",
         "descriptors": [
             "electronic",
             "jazzy",
@@ -1634,7 +1634,7 @@
     {
         "title": "SCARING THE HOES",
         "artist": "JPEGMAFIA & Danny Brown",
-        "year": "2023",
+        "year": "2023-03-24",
         "descriptors": [
             "hip hop",
             "wonky",
@@ -1651,7 +1651,7 @@
     {
         "title": "That! Feels Good!",
         "artist": "Jessie Ware",
-        "year": "2023",
+        "year": "2023-04-28",
         "descriptors": [
             "disco",
             "funky",
@@ -1664,5 +1664,22 @@
         "album_url": "https://open.spotify.com/album/17g3sAeWfpHSJlqMHuRAr6",
         "image_url": "https://i.scdn.co/image/ab67616d0000b273911ebd2541f086d8c9f7952d",
         "date_added": "2023-04-28"
+    },
+    {
+        "title": "Spaces and Places",
+        "artist": "Kerri Chandler",
+        "year": "2022-09-26",
+        "descriptors": [
+            "house",
+            "dance",
+            "electronic"
+        ],
+        "tracks": [
+            "Hurry Up [Ministry of Sound]",
+            "The Piano Thing (Live)"
+        ],
+        "album_url": "https://open.spotify.com/album/4Q4G4hrAms9J3mYmofZlrT",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273f671d00f5ca7c99fa6ccfb84",
+        "date_added": "2023-05-05"
     }
 ]
