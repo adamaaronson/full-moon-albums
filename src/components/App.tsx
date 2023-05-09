@@ -29,6 +29,11 @@ function App() {
         }
         newAlbums = getSortedAlbums(newAlbums, sort)
         setAlbums([...newAlbums])
+
+        const albumElement = document.getElementById('albums');
+        if (albumElement) {
+            albumElement.scrollIntoView();
+        }
     }
 
     const handleFilterClick = (event: React.MouseEvent<HTMLElement>) => {

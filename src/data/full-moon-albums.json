@@ -1681,5 +1681,22 @@
         "album_url": "https://open.spotify.com/album/4Q4G4hrAms9J3mYmofZlrT",
         "image_url": "https://i.scdn.co/image/ab67616d0000b273f671d00f5ca7c99fa6ccfb84",
         "date_added": "2023-05-05"
+    },
+    {
+        "title": "Gaucho",
+        "artist": "Steely Dan",
+        "year": "1980",
+        "descriptors": [
+            "jazzy",
+            "breezy",
+            "rock"
+        ],
+        "tracks": [
+            "Glamour Profession",
+            "Time Out of Mind"
+        ],
+        "album_url": "https://open.spotify.com/album/5fIBtKHWGjbjK9C4i1Z11L",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273412d0a3ed734b885c1fed05d",
+        "date_added": "2023-05-09"
     }
 ]

@@ -223,7 +223,7 @@ html {
     font-size: 0.8em;
     color: $gray;
     text-decoration: none;
-
+    white-space: nowrap;
     transition: 0.3s color;
 
     &:hover {
