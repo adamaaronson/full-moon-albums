@@ -12,6 +12,10 @@ edge_cases = {
     ('Todd Edwards', 'Prima Edizione'): {
         'album_url': 'https://open.spotify.com/album/6SRbCAQ1zu2r47Bi771rAs',
         'image_url': 'primaedizione.jpg'
+    },
+    ('KNOWER', 'KNOWER FOREVER'): {
+        'album_url': '',
+        'image_url': 'knowerforever.jpg'
     }
 } 
 

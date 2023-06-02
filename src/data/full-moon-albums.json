@@ -1715,5 +1715,22 @@
         "album_url": "https://open.spotify.com/album/1WwkwSVwh9clBkan9ElU0e",
         "image_url": "https://i.scdn.co/image/ab67616d0000b273d74bc7e553de4198693dd824",
         "date_added": "2023-05-26"
+    },
+    {
+        "title": "KNOWER FOREVER",
+        "artist": "KNOWER",
+        "year": "2023-06-02",
+        "descriptors": [
+            "funky",
+            "jazzy",
+            "groovy"
+        ],
+        "tracks": [
+            "I'm the President",
+            "Nightmare"
+        ],
+        "album_url": "",
+        "image_url": "knowerforever.jpg",
+        "date_added": "2023-06-02"
     }
 ]
