@@ -1732,5 +1732,22 @@
         "album_url": "",
         "image_url": "knowerforever.jpg",
         "date_added": "2023-06-02"
+    },
+    {
+        "title": "Acabou Chorare",
+        "artist": "Novos Baianos",
+        "year": "1972",
+        "descriptors": [
+            "samba",
+            "rock",
+            "jazzy"
+        ],
+        "tracks": [
+            "Brasil Pandeiro",
+            "Um Bilhete Pra Didi"
+        ],
+        "album_url": "https://open.spotify.com/album/5pIlMNPZh4D9iJSoCfMzGi",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b27327968fcceb7e9541fb2c9d76",
+        "date_added": "2023-06-08"
     }
 ]
