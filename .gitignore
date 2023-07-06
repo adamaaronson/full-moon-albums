@@ -24,5 +24,6 @@ dist-ssr
 *.sw?
 
 src/data/apiconfig.py
+src/data/analyze-albums.py
 *__pycache__
 *.cache

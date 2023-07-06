@@ -1749,5 +1749,22 @@
         "album_url": "https://open.spotify.com/album/5pIlMNPZh4D9iJSoCfMzGi",
         "image_url": "https://i.scdn.co/image/ab67616d0000b27327968fcceb7e9541fb2c9d76",
         "date_added": "2023-06-08"
+    },
+    {
+        "title": "Everything Harmony",
+        "artist": "The Lemon Twigs",
+        "year": "2023-05-05",
+        "descriptors": [
+            "rock",
+            "poppy",
+            "lush"
+        ],
+        "tracks": [
+            "In My Head",
+            "Any Time of Day"
+        ],
+        "album_url": "https://open.spotify.com/album/5X0MAnUVN7eEZyO1LjprIk",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273ab764b74918b0adf45fce723",
+        "date_added": "2023-07-06"
     }
 ]
