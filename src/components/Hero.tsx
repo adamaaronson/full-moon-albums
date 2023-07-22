@@ -66,7 +66,7 @@ export function Hero() {
                 </li>
             </ul>
             <p>
-                After rating <strong>1,300+</strong> albums,
+                After rating <strong>1,400+</strong> albums,
                 these are the ones that slap from start to finish,
                 the ones I keep coming back to,
                 the ones that earned themselves a <strong>Full Moon</strong>. <a className="learn-more" href="https://aaronson.org/blog/full-moon-albums" rel="noreferrer noopener" target="_blank">
