@@ -859,8 +859,8 @@
             "lush"
         ],
         "tracks": [
-            "About Your Love",
-            "20/20"
+            "Another Love",
+            "About Your Love"
         ],
         "album_url": "https://open.spotify.com/album/70RkyEuMjhRnbTQe1Md7os",
         "image_url": "https://i.scdn.co/image/ab67616d0000b273cd1237e194c0eec599dc574d",
@@ -1766,5 +1766,39 @@
         "album_url": "https://open.spotify.com/album/5X0MAnUVN7eEZyO1LjprIk",
         "image_url": "https://i.scdn.co/image/ab67616d0000b273ab764b74918b0adf45fce723",
         "date_added": "2023-07-06"
+    },
+    {
+        "title": "The Loveliest Time",
+        "artist": "Carly Rae Jepsen",
+        "year": "2023-07-28",
+        "descriptors": [
+            "sophisti-pop",
+            "electronic",
+            "funky"
+        ],
+        "tracks": [
+            "Aeroplanes",
+            "Shy Boy"
+        ],
+        "album_url": "https://open.spotify.com/album/4bRYGKmKOkXvKL1QBf0cGk",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273521ccb4f47088d061f26aa4d",
+        "date_added": "2023-08-28"
+    },
+    {
+        "title": "From Langley Park to Memphis",
+        "artist": "Prefab Sprout",
+        "year": "1988",
+        "descriptors": [
+            "sophisti-pop",
+            "jazzy",
+            "new wave"
+        ],
+        "tracks": [
+            "Cars and Girls",
+            "Knock on Wood"
+        ],
+        "album_url": "https://open.spotify.com/album/4yhZQGEEogCoJ0SZ9RTUrv",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b2734f4b73eb515a95c06f83dea3",
+        "date_added": "2023-08-29"
     }
 ]
