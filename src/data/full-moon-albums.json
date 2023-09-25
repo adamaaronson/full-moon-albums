@@ -34,23 +34,6 @@
         "date_added": "2020-02-25"
     },
     {
-        "title": "To Pimp A Butterfly",
-        "artist": "Kendrick Lamar",
-        "year": "2015",
-        "descriptors": [
-            "hip hop",
-            "jazzy",
-            "soulful"
-        ],
-        "tracks": [
-            "King Kunta",
-            "How Much A Dollar Cost"
-        ],
-        "album_url": "https://open.spotify.com/album/7ycBtnsMtyVbbwTfJwRjSP",
-        "image_url": "https://i.scdn.co/image/ab67616d0000b273cdb645498cd3d8a2db4d05e1",
-        "date_added": "2020-02-25"
-    },
-    {
         "title": "Time",
         "artist": "Louis Cole",
         "year": "2018",
@@ -66,23 +49,6 @@
         "album_url": "https://open.spotify.com/album/2p8VeG5r2aadenxHViCibr",
         "image_url": "https://i.scdn.co/image/ab67616d0000b2730f670bf8867870b2557d84eb",
         "date_added": "2020-02-26"
-    },
-    {
-        "title": "Illmatic",
-        "artist": "Nas",
-        "year": "1994",
-        "descriptors": [
-            "hip hop",
-            "groovy",
-            "jazzy"
-        ],
-        "tracks": [
-            "The World is Yours",
-            "It Ain't Hard to Tell"
-        ],
-        "album_url": "https://open.spotify.com/album/3kEtdS2pH6hKcMU9Wioob1",
-        "image_url": "https://i.scdn.co/image/ab67616d0000b273045fc920ecf4f8094888ec26",
-        "date_added": "2020-02-27"
     },
     {
         "title": "Geography",
@@ -136,7 +102,7 @@
         "date_added": "2020-02-28"
     },
     {
-        "title": "Sgt. Pepper\u2019s Lonely Hearts Club Band",
+        "title": "Sgt. Pepper's Lonely Hearts Club Band",
         "artist": "The Beatles",
         "year": "1967",
         "descriptors": [
@@ -255,23 +221,6 @@
         "date_added": "2020-03-08"
     },
     {
-        "title": "24K Magic",
-        "artist": "Bruno Mars",
-        "year": "2016",
-        "descriptors": [
-            "poppy",
-            "funky",
-            "soulful"
-        ],
-        "tracks": [
-            "Chunky",
-            "That's What I Like"
-        ],
-        "album_url": "https://open.spotify.com/album/4PgleR09JVnm3zY1fW3XBA",
-        "image_url": "https://i.scdn.co/image/ab67616d0000b273232711f7d66a1e19e89e28c5",
-        "date_added": "2020-03-09"
-    },
-    {
         "title": "<|\u00ba_\u00ba|>",
         "artist": "Caravan Palace",
         "year": "2015",
@@ -341,7 +290,7 @@
     },
     {
         "title": "Voodoo",
-        "artist": "D\u2019Angelo",
+        "artist": "D'Angelo",
         "year": "2000",
         "descriptors": [
             "neo soul",
@@ -561,7 +510,7 @@
         "date_added": "2020-09-30"
     },
     {
-        "title": "Mama\u2019s Gun",
+        "title": "Mama's Gun",
         "artist": "Erykah Badu",
         "year": "2000",
         "descriptors": [
@@ -643,23 +592,6 @@
         ],
         "album_url": "https://open.spotify.com/album/5sztejERqpktXEdemlUvU5",
         "image_url": "https://i.scdn.co/image/ab67616d0000b27322d5199692d318c28d6c7d9b",
-        "date_added": "2020-12-30"
-    },
-    {
-        "title": "Torches",
-        "artist": "Foster the People",
-        "year": "2011",
-        "descriptors": [
-            "indie pop",
-            "electronic",
-            "psychedelic"
-        ],
-        "tracks": [
-            "Don't Stop (Color on the Walls)",
-            "Waste"
-        ],
-        "album_url": "https://open.spotify.com/album/7Kmmw7Z5D2UD5MVwdm10sT",
-        "image_url": "https://i.scdn.co/image/ab67616d0000b273121d5f92cf90576907dfb1e5",
         "date_added": "2020-12-30"
     },
     {
@@ -1190,6 +1122,23 @@
         "date_added": "2022-09-23"
     },
     {
+        "title": "Illmatic",
+        "artist": "Nas",
+        "year": "1994",
+        "descriptors": [
+            "hip hop",
+            "groovy",
+            "jazzy"
+        ],
+        "tracks": [
+            "The World is Yours",
+            "It Ain't Hard to Tell"
+        ],
+        "album_url": "https://open.spotify.com/album/3kEtdS2pH6hKcMU9Wioob1",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273045fc920ecf4f8094888ec26",
+        "date_added": "2022-09-26"
+    },
+    {
         "title": "You've Come a Long Way, Baby",
         "artist": "Fatboy Slim",
         "year": "1998",
@@ -1205,6 +1154,23 @@
         "album_url": "https://open.spotify.com/album/7G7cCHgQKbDD6zvwDQZyJu",
         "image_url": "https://i.scdn.co/image/ab67616d0000b27332922d86fcf090a1a6d4deb0",
         "date_added": "2022-10-03"
+    },
+    {
+        "title": "To Pimp a Butterfly",
+        "artist": "Kendrick Lamar",
+        "year": "2015",
+        "descriptors": [
+            "hip hop",
+            "jazzy",
+            "soulful"
+        ],
+        "tracks": [
+            "King Kunta",
+            "How Much A Dollar Cost"
+        ],
+        "album_url": "https://open.spotify.com/album/7ycBtnsMtyVbbwTfJwRjSP",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273cdb645498cd3d8a2db4d05e1",
+        "date_added": "2022-10-12"
     },
     {
         "title": "The Optimist",
@@ -1564,40 +1530,6 @@
         "date_added": "2023-03-10"
     },
     {
-        "title": "ANEW",
-        "artist": "JENE",
-        "year": "2022-08-20",
-        "descriptors": [
-            "electronic",
-            "jazzy",
-            "breakbeat"
-        ],
-        "tracks": [
-            "Will U Ever Know?",
-            "Poker Face"
-        ],
-        "album_url": "https://open.spotify.com/album/25rXXmmA3gd6m23dhV1VIh",
-        "image_url": "https://i.scdn.co/image/ab67616d0000b27364780107a9b076297362f049",
-        "date_added": "2023-03-21"
-    },
-    {
-        "title": "Ambient 1: Music for Airports",
-        "artist": "Brian Eno",
-        "year": "1978",
-        "descriptors": [
-            "ambient",
-            "electronic",
-            "minimalist"
-        ],
-        "tracks": [
-            "1/1",
-            "2/1"
-        ],
-        "album_url": "https://open.spotify.com/album/063f8Ej8rLVTz9KkjQKEMa",
-        "image_url": "https://i.scdn.co/image/ab67616d0000b27337a379ca6520eaf191de6ff2",
-        "date_added": "2023-03-31"
-    },
-    {
         "title": "Choose Your Weapon",
         "artist": "Hiatus Kaiyote",
         "year": "2015",
@@ -1726,8 +1658,8 @@
             "groovy"
         ],
         "tracks": [
-            "I'm the President",
-            "Nightmare"
+            "Nightmare",
+            "It Will Get Real"
         ],
         "album_url": "",
         "image_url": "knowerforever.jpg",
@@ -1800,5 +1732,22 @@
         "album_url": "https://open.spotify.com/album/4yhZQGEEogCoJ0SZ9RTUrv",
         "image_url": "https://i.scdn.co/image/ab67616d0000b2734f4b73eb515a95c06f83dea3",
         "date_added": "2023-08-29"
+    },
+    {
+        "title": "Previs\u00e3o do Tempo",
+        "artist": "Marcos Valle",
+        "year": "1973",
+        "descriptors": [
+            "jazzy",
+            "funky",
+            "samba"
+        ],
+        "tracks": [
+            "Mentira (Chega de Mentira)",
+            "Os Ossos do Bar\u00e3o"
+        ],
+        "album_url": "https://open.spotify.com/album/4SrPTE9sLJTE8mpeWFUhRL",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b27306f9cb95fb276b0d7c8296d7",
+        "date_added": "2023-09-24"
     }
 ]
