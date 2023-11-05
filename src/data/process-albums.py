@@ -13,10 +13,6 @@ edge_cases = {
         'album_url': 'https://open.spotify.com/album/6SRbCAQ1zu2r47Bi771rAs',
         'image_url': 'primaedizione.jpg'
     },
-    ('KNOWER', 'KNOWER FOREVER'): {
-        'album_url': '',
-        'image_url': 'knowerforever.jpg'
-    }
 } 
 
 client_credentials_manager = SpotifyClientCredentials(client_id=apiconfig.CLIENT_ID, client_secret=apiconfig.CLIENT_SECRET)

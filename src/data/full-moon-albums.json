@@ -1581,23 +1581,6 @@
         "date_added": "2023-04-24"
     },
     {
-        "title": "That! Feels Good!",
-        "artist": "Jessie Ware",
-        "year": "2023-04-28",
-        "descriptors": [
-            "disco",
-            "funky",
-            "poppy"
-        ],
-        "tracks": [
-            "Free Yourself",
-            "Beautiful People"
-        ],
-        "album_url": "https://open.spotify.com/album/17g3sAeWfpHSJlqMHuRAr6",
-        "image_url": "https://i.scdn.co/image/ab67616d0000b273911ebd2541f086d8c9f7952d",
-        "date_added": "2023-04-28"
-    },
-    {
         "title": "Spaces and Places",
         "artist": "Kerri Chandler",
         "year": "2022-09-26",
@@ -1661,8 +1644,8 @@
             "Nightmare",
             "It Will Get Real"
         ],
-        "album_url": "",
-        "image_url": "knowerforever.jpg",
+        "album_url": "https://open.spotify.com/album/4HLzhoSO67xRwfZa1T343L",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273256ce041df8dfa894046afd7",
         "date_added": "2023-06-02"
     },
     {
@@ -1749,5 +1732,22 @@
         "album_url": "https://open.spotify.com/album/4SrPTE9sLJTE8mpeWFUhRL",
         "image_url": "https://i.scdn.co/image/ab67616d0000b27306f9cb95fb276b0d7c8296d7",
         "date_added": "2023-09-24"
+    },
+    {
+        "title": "Flaming Swords",
+        "artist": "Fievel Is Glauque",
+        "year": "2022-11-25",
+        "descriptors": [
+            "jazzy",
+            "chaotic",
+            "mellow"
+        ],
+        "tracks": [
+            "Little Bad Miracle",
+            "Wrong Item"
+        ],
+        "album_url": "https://open.spotify.com/album/2lbjS63tQsEA9z8QA7wp3A",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b2738cd133e8ca70da1bf89e4f67",
+        "date_added": "2023-11-05"
     }
 ]
