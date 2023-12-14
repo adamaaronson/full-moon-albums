@@ -15,6 +15,11 @@ edge_cases = {
     },
 } 
 
+non_breaking_strings = (
+    ('Vol. ', 'Vol.\u00A0'),
+    ('Brasil \'66', 'Brasil\u00A0\'66')
+)
+
 client_credentials_manager = SpotifyClientCredentials(client_id=apiconfig.CLIENT_ID, client_secret=apiconfig.CLIENT_SECRET)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
@@ -57,7 +62,9 @@ def read_albums_from_csv(csv_file, json_file=None):
         for row in reader:
             album, artist, year, descriptors, song1, song2, date_added = row
 
-            album = album.replace('Vol. ', 'Vol.\u00A0')
+            for from_string, to_string in non_breaking_strings:
+                album = album.replace(from_string, to_string)
+                artist = artist.replace(from_string, to_string)
 
             if album == 'Album' and artist == 'Artist':
                 continue

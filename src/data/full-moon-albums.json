@@ -1749,5 +1749,22 @@
         "album_url": "https://open.spotify.com/album/2lbjS63tQsEA9z8QA7wp3A",
         "image_url": "https://i.scdn.co/image/ab67616d0000b2738cd133e8ca70da1bf89e4f67",
         "date_added": "2023-11-05"
+    },
+    {
+        "title": "Equinox",
+        "artist": "S\u00e9rgio Mendes & Brasil\u00a0'66",
+        "year": "1967",
+        "descriptors": [
+            "bossa nova",
+            "jazzy",
+            "breezy"
+        ],
+        "tracks": [
+            "Watch What Happens",
+            "Bim-Bom"
+        ],
+        "album_url": "https://open.spotify.com/album/1UfK3QoiNfZL5A6JqvxUeT",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273d7d2d3371edf998daacc3d4c",
+        "date_added": "2023-12-14"
     }
 ]
