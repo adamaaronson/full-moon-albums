@@ -442,23 +442,6 @@
         "date_added": "2020-04-24"
     },
     {
-        "title": "Future Nostalgia",
-        "artist": "Dua Lipa",
-        "year": "2020-03-27",
-        "descriptors": [
-            "poppy",
-            "funky",
-            "groovy"
-        ],
-        "tracks": [
-            "Future Nostalgia",
-            "Pretty Please"
-        ],
-        "album_url": "https://open.spotify.com/album/7fJJK56U9fHixgO0HQkhtI",
-        "image_url": "https://i.scdn.co/image/ab67616d0000b273bd26ede1ae69327010d49946",
-        "date_added": "2020-04-24"
-    },
-    {
         "title": "Djesse Vol.\u00a03",
         "artist": "Jacob Collier",
         "year": "2020-08-14",
@@ -899,23 +882,6 @@
         "album_url": "https://open.spotify.com/album/7tJ8Wtej161vR0uCbGDiDR",
         "image_url": "https://i.scdn.co/image/ab67616d0000b27316a6cb93e32bf2ae66b1f5b2",
         "date_added": "2021-10-28"
-    },
-    {
-        "title": "An Evening With Silk Sonic",
-        "artist": "Silk Sonic",
-        "year": "2021-11-12",
-        "descriptors": [
-            "funky",
-            "soulful",
-            "smooth"
-        ],
-        "tracks": [
-            "Fly As Me",
-            "Skate"
-        ],
-        "album_url": "https://open.spotify.com/album/1YgekJJTEueWDaMr7BYqPk",
-        "image_url": "https://i.scdn.co/image/ab67616d0000b273fcf75ead8a32ac0020d2ce86",
-        "date_added": "2021-11-12"
     },
     {
         "title": "Settle",
@@ -1375,23 +1341,6 @@
         "album_url": "https://open.spotify.com/album/6JHowYqtDso2k1ji5H7vUy",
         "image_url": "https://i.scdn.co/image/ab67616d0000b273c189f0df7d6fe7d4bf23dde9",
         "date_added": "2022-12-28"
-    },
-    {
-        "title": "Fantastic, Vol.\u00a02",
-        "artist": "Slum Village",
-        "year": "2000",
-        "descriptors": [
-            "hip hop",
-            "funky",
-            "stanky"
-        ],
-        "tracks": [
-            "Get Dis Money",
-            "Players"
-        ],
-        "album_url": "https://open.spotify.com/album/22IhsI5JpldSrE7vhidAja",
-        "image_url": "https://i.scdn.co/image/ab67616d0000b2733999c60eca1a87fd7e7868bc",
-        "date_added": "2023-01-11"
     },
     {
         "title": "Donuts",
