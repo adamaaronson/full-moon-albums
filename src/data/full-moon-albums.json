@@ -1715,5 +1715,22 @@
         "album_url": "https://open.spotify.com/album/5lEphbceIgaK1XxWeSrC9E",
         "image_url": "https://i.scdn.co/image/ab67616d0000b2735d2fdd1564ccab97e60c656f",
         "date_added": "2024-01-25"
+    },
+    {
+        "title": "Suntub",
+        "artist": "ML Buch",
+        "year": "2023-10-27",
+        "descriptors": [
+            "ethereal",
+            "electronic",
+            "synthetic"
+        ],
+        "tracks": [
+            "Fleshless hand",
+            "Well bucket"
+        ],
+        "album_url": "https://open.spotify.com/album/6IjtDhIvMy3I8xORtWAVax",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b27386a8513fec7563a8a6584c84",
+        "date_added": "2024-03-18"
     }
 ]
