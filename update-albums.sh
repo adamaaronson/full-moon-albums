@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd src/data
 
 python3 process-albums.py
