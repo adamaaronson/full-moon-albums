@@ -1715,5 +1715,22 @@
         "album_url": "https://open.spotify.com/album/6IjtDhIvMy3I8xORtWAVax",
         "image_url": "https://i.scdn.co/image/ab67616d0000b27386a8513fec7563a8a6584c84",
         "date_added": "2024-03-18"
+    },
+    {
+        "title": "Morph the Cat",
+        "artist": "Donald Fagen",
+        "year": "2006",
+        "descriptors": [
+            "jazzy",
+            "funky",
+            "sophisti-pop"
+        ],
+        "tracks": [
+            "H Gang",
+            "Security Joan"
+        ],
+        "album_url": "https://open.spotify.com/album/0ucJF6IWKYlTXFmWJH4SNR",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273a93eee7a87ca1cece9fd6f8c",
+        "date_added": "2024-04-18"
     }
 ]
