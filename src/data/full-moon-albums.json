@@ -1732,5 +1732,22 @@
         "album_url": "https://open.spotify.com/album/0ucJF6IWKYlTXFmWJH4SNR",
         "image_url": "https://i.scdn.co/image/ab67616d0000b273a93eee7a87ca1cece9fd6f8c",
         "date_added": "2024-04-18"
+    },
+    {
+        "title": "Blues-ette",
+        "artist": "Curtis Fuller Quintet",
+        "year": "1960",
+        "descriptors": [
+            "jazz",
+            "bluesy",
+            "mellow"
+        ],
+        "tracks": [
+            "Undecided",
+            "Twelve-Inch"
+        ],
+        "album_url": "https://open.spotify.com/album/2bgctvt26Q7muaHhaIIiWT",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273251ca2892a67ecaab5f8a0d0",
+        "date_added": "2024-04-19"
     }
 ]
