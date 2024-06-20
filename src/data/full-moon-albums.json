@@ -1766,5 +1766,22 @@
         "album_url": "https://open.spotify.com/album/151mT9g0fDHVfpmWeYk4Wx",
         "image_url": "https://i.scdn.co/image/ab67616d0000b2735e70712e0193f7a9bbc23c0d",
         "date_added": "2024-05-07"
+    },
+    {
+        "title": "Workshop 32",
+        "artist": "Kassem Mosse",
+        "year": "2023",
+        "descriptors": [
+            "electronic",
+            "ambient",
+            "groovy"
+        ],
+        "tracks": [
+            "B1",
+            "C2"
+        ],
+        "album_url": "https://open.spotify.com/album/6oUvZiJ15EvoBvNowJUarF",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273126ac38f769d4f5b59692179",
+        "date_added": "2024-06-20"
     }
 ]
