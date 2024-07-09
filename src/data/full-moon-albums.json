@@ -1783,5 +1783,22 @@
         "album_url": "https://open.spotify.com/album/6oUvZiJ15EvoBvNowJUarF",
         "image_url": "https://i.scdn.co/image/ab67616d0000b273126ac38f769d4f5b59692179",
         "date_added": "2024-06-20"
+    },
+    {
+        "title": "Golden Pear",
+        "artist": "Omni Gardens",
+        "year": "2023-10-27",
+        "descriptors": [
+            "ambient",
+            "electronic",
+            "mellow"
+        ],
+        "tracks": [
+            "Rain Jacket",
+            "Honeywisp"
+        ],
+        "album_url": "https://open.spotify.com/album/3QakGzV0tV7NxaapmxmUF1",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b2739d7517153910550daeac90e6",
+        "date_added": "2024-07-09"
     }
 ]
