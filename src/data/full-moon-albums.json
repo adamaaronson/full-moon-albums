@@ -1800,5 +1800,22 @@
         "album_url": "https://open.spotify.com/album/3QakGzV0tV7NxaapmxmUF1",
         "image_url": "https://i.scdn.co/image/ab67616d0000b2739d7517153910550daeac90e6",
         "date_added": "2024-07-09"
+    },
+    {
+        "title": "Here in the Pitch",
+        "artist": "Jessica Pratt",
+        "year": "2024-05-03",
+        "descriptors": [
+            "folk",
+            "bossa nova",
+            "mellow"
+        ],
+        "tracks": [
+            "Better Hate",
+            "Get Your Head Out"
+        ],
+        "album_url": "https://open.spotify.com/album/7hUAyfpXkSE2JT5gOORZO0",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273a92f6519da012f1efdb40475",
+        "date_added": "2024-09-23"
     }
 ]
