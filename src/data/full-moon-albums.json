@@ -1817,5 +1817,22 @@
         "album_url": "https://open.spotify.com/album/7hUAyfpXkSE2JT5gOORZO0",
         "image_url": "https://i.scdn.co/image/ab67616d0000b273a92f6519da012f1efdb40475",
         "date_added": "2024-09-23"
+    },
+    {
+        "title": "Long Cool World",
+        "artist": "North Americans",
+        "year": "2023-04-07",
+        "descriptors": [
+            "ambient",
+            "folk",
+            "electronic"
+        ],
+        "tracks": [
+            "The Last Rockabilly",
+            "Crossed Up"
+        ],
+        "album_url": "https://open.spotify.com/album/5y7H3tDoGqmw1w88QKGV8o",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273c312c997b0ef61fdad4ede5d",
+        "date_added": "2024-09-27"
     }
 ]
