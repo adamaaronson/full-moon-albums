@@ -1834,5 +1834,22 @@
         "album_url": "https://open.spotify.com/album/5y7H3tDoGqmw1w88QKGV8o",
         "image_url": "https://i.scdn.co/image/ab67616d0000b273c312c997b0ef61fdad4ede5d",
         "date_added": "2024-09-27"
+    },
+    {
+        "title": "Total Blue",
+        "artist": "Total Blue",
+        "year": "2024-07-19",
+        "descriptors": [
+            "ambient",
+            "groovy",
+            "jazzy"
+        ],
+        "tracks": [
+            "Heart of the World",
+            "Chaparral"
+        ],
+        "album_url": "https://open.spotify.com/album/5vHwzf4eINX33tvjyugsAG",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b27372bd94ca559e3c2ad0bf3dd0",
+        "date_added": "2024-11-24"
     }
 ]
