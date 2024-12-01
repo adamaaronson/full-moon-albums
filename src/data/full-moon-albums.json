@@ -1851,5 +1851,22 @@
         "album_url": "https://open.spotify.com/album/5vHwzf4eINX33tvjyugsAG",
         "image_url": "https://i.scdn.co/image/ab67616d0000b27372bd94ca559e3c2ad0bf3dd0",
         "date_added": "2024-11-26"
+    },
+    {
+        "title": "Daryl Johns",
+        "artist": "Daryl Johns",
+        "year": "2024-11-22",
+        "descriptors": [
+            "jazzy",
+            "jangly",
+            "psychedelic"
+        ],
+        "tracks": [
+            "I'm So Serious",
+            "Crash"
+        ],
+        "album_url": "https://open.spotify.com/album/1KcMm91Cfdgf60yhnhTbFj",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b27341dc2fa57fb5f56e90b312c1",
+        "date_added": "2024-12-01"
     }
 ]
