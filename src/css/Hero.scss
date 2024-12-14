@@ -1,11 +1,11 @@
-@import "App.scss";
+@import 'App.scss';
 
 $moon-emoji-size: min(420px, 50vw);
 $moonburst-size: max(300vw, 300vh);
 $header-gap: calc(0.165 * $moon-emoji-size);
-$moon-emoji-shift-left: calc(clamp(25vw - 500px, 0px, -0.92 * $moon-emoji-size) + 30vw - 3 * $header-gap);
-
-$responsive-threshold: 800px;
+$moon-emoji-shift-left: calc(
+    clamp(25vw - 500px, 0px, -0.92 * $moon-emoji-size) + 30vw - 3 * $header-gap
+);
 
 .header {
     min-height: 100vh;
@@ -81,7 +81,7 @@ $responsive-threshold: 800px;
     animation-name: spin;
     animation-duration: 60000ms;
     animation-iteration-count: infinite;
-    animation-timing-function: linear; 
+    animation-timing-function: linear;
 
     &.moon-rotator {
         width: $moon-emoji-size;
@@ -99,10 +99,10 @@ $responsive-threshold: 800px;
 
 @keyframes spin {
     from {
-        transform:rotate(0deg);
+        transform: rotate(0deg);
     }
     to {
-        transform:rotate(360deg);
+        transform: rotate(360deg);
     }
 }
 
@@ -121,7 +121,7 @@ $responsive-threshold: 800px;
 
     @media (max-width: $responsive-threshold) {
         margin-left: 0;
-        max-width: 100%
+        max-width: 100%;
     }
 
     @media (max-width: calc(0.8 * $responsive-threshold)) {
@@ -195,7 +195,7 @@ $responsive-threshold: 800px;
     transition: 0.3s transform;
 
     &:hover {
-        transform: scale(1.06)
+        transform: scale(1.06);
     }
 }
 

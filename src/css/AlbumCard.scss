@@ -1,4 +1,4 @@
-@import "App.scss";
+@import 'App.scss';
 
 .album-card {
     background: $dark-gray;
@@ -13,12 +13,12 @@
     transition: 0.3s transform;
 
     &:hover {
-        transform: scale(1.03)
+        transform: scale(1.03);
     }
 }
 
 .album-date-label {
-    content: "• new •";
+    content: '• new •';
     position: absolute;
     top: 0;
     left: 50%;
@@ -43,6 +43,12 @@
         color: $darkest-gray;
         font-weight: bold;
     }
+}
+
+.album-rank {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 4px 20px;
 }
 
 .album-image {
@@ -93,7 +99,7 @@
     transition: 0.3s transform;
 
     &:hover {
-        transform: scale(1.06)
+        transform: scale(1.06);
     }
 }
 
@@ -117,7 +123,7 @@
     transition: 0.3s transform;
 
     &:hover {
-        transform: scale(1.09)
+        transform: scale(1.09);
     }
 }
 

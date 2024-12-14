@@ -1,0 +1,48 @@
+@import 'App.scss';
+
+.best-albums-of-year {
+    a {
+        color: $white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+
+        &:hover {
+            color: $moon;
+        }
+    }
+}
+
+.best-albums-header {
+    margin: $spacing-unit * 2;
+}
+
+.best-albums-header-contents {
+    color: $white;
+    background-color: $dark-gray;
+
+    border-radius: 32px;
+    padding: 32px;
+    width: fit-content;
+    max-width: 690px;
+    margin: auto;
+}
+
+.best-albums-title {
+    font-size: 48px;
+
+    @media (max-width: calc($responsive-threshold * 0.8)) {
+        font-size: 36px;
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.best-albums-byline {
+    margin-bottom: $spacing-unit;
+    color: $gray;
+    font-weight: normal;
+}
+
+.best-albums-description {
+    color: $gray;
+}

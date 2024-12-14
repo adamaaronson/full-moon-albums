@@ -1,42 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-FQJ37CN1J0"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+    <head>
+        <base href="/" />
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-FQJ37CN1J0"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
 
-      gtag("config", "G-FQJ37CN1J0");
-    </script>
-    
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link rel="icon" href="/favicon.ico"/>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
-    <title>Full Moon Albums</title>
-    <meta name="description" content="I listen to a lot of music. Since 2020, I've been keeping track of every album I listen to and rating each one with a moon emoji.">
-    
-    <!-- social stuffs -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@aaaronson">
-    <meta name="twitter:title" content="Full Moon Albums">
-    <meta name="twitter:description" content="I listen to a lot of music. Since 2020, I've been keeping track of every album I listen to and rating each one with a moon emoji.">
-    <meta name="twitter:image" content="https://aaronson.org/full-moon-albums/card-thumbnail.jpg">
-    <meta property="og:title" content="Full Moon Albums" />
-    <meta property="og:url" content="https://aaronson.org/full-moon-albums/" />
-    <meta property="og:description" content="I listen to a lot of music. Since 2020, I've been keeping track of every album I listen to and rating each one with a moon emoji." />
-    <meta property="og:image" content="https://aaronson.org/full-moon-albums/card-image.jpg" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+            gtag('config', 'G-FQJ37CN1J0');
+        </script>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="icon" href="/favicon.ico" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <title>Full Moon Albums</title>
+        <meta
+            name="description"
+            content="I listen to a lot of music. Since 2020, I've been keeping track of every album I listen to and rating each one with a moon emoji."
+        />
+
+        <!-- social stuffs -->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@aaaronson" />
+        <meta name="twitter:title" content="Full Moon Albums" />
+        <meta
+            name="twitter:description"
+            content="I listen to a lot of music. Since 2020, I've been keeping track of every album I listen to and rating each one with a moon emoji."
+        />
+        <meta
+            name="twitter:image"
+            content="https://aaronson.org/full-moon-albums/card-thumbnail.jpg"
+        />
+        <meta property="og:title" content="Full Moon Albums" />
+        <meta
+            property="og:url"
+            content="https://aaronson.org/full-moon-albums/"
+        />
+        <meta
+            property="og:description"
+            content="I listen to a lot of music. Since 2020, I've been keeping track of every album I listen to and rating each one with a moon emoji."
+        />
+        <meta
+            property="og:image"
+            content="https://aaronson.org/full-moon-albums/card-image.jpg"
+        />
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="module" src="/src/main.tsx"></script>
+    </body>
 </html>
