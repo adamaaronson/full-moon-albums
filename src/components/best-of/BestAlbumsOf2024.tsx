@@ -24,7 +24,7 @@ export default function BestAlbumsOf2024() {
                         I listened to over 250 albums that came out this year,
                         and these are my&nbsp;favorites.
                         For&nbsp;my&nbsp;favorite albums of all time, check out{' '}
-                        <a href="/">Full Moon Albums</a>!
+                        <a href="/full-moon-albums/">Full Moon Albums</a>!
                     </p>
                 </div>
             </header>
