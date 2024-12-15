@@ -1834,5 +1834,22 @@
         "album_url": "https://open.spotify.com/album/1KcMm91Cfdgf60yhnhTbFj",
         "image_url": "https://i.scdn.co/image/ab67616d0000b27341dc2fa57fb5f56e90b312c1",
         "date_added": "2024-12-01"
+    },
+    {
+        "title": "Skylarking",
+        "artist": "XTC",
+        "year": "1986",
+        "descriptors": [
+            "new wave",
+            "lush",
+            "psychedelic"
+        ],
+        "tracks": [
+            "That's Really Super, Supergirl",
+            "Season Cycle"
+        ],
+        "album_url": "https://open.spotify.com/album/3FVsJiQMI7dp0RfTBdWtMW",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273fc44899bcbe64d27e5977512",
+        "date_added": "2024-12-15"
     }
 ]
