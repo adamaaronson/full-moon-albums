@@ -2,7 +2,7 @@
 
 cd src/data
 
-python3 process_albums.py
+python3 process_best_of.py
 
 cd ../..
 

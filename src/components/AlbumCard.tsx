@@ -6,6 +6,7 @@ export interface AlbumCardProps {
     album: Album;
     onClickFilter: React.MouseEventHandler<HTMLButtonElement>;
     ranked?: boolean;
+    hideYear?: boolean;
 }
 
 export function capitalizeFirstLetter(str: string) {
@@ -33,6 +34,7 @@ export function AlbumCard({
     album,
     onClickFilter,
     ranked = false,
+    hideYear = false,
 }: AlbumCardProps) {
     const [showingNewDate, setShowingNewDate] = useState(false);
 
@@ -46,7 +48,7 @@ export function AlbumCard({
             onMouseOut={() => setShowingNewDate(false)}
         >
             {ranked ? (
-                <div className="album-date-label album-rank">15</div>
+                <div className="album-date-label album-rank">{album.rank}</div>
             ) : (
                 <div
                     className={
@@ -71,7 +73,9 @@ export function AlbumCard({
                 ></img>
                 <h2 className="album-title">{album.title}</h2>
                 <h3 className="album-artist">{album.artist}</h3>
-                <h4 className="album-year">{album.year.split('-')[0]}</h4>
+                <h4 className="album-year">
+                    {hideYear ? album.year.split('-')[0] : ''}
+                </h4>
                 <div className="album-descriptors-list">
                     {album.descriptors.map((filter) => (
                         <button

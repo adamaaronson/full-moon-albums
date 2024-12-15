@@ -90,8 +90,14 @@ def read_albums_from_csv(csv_file, json_file=None):
     
     return albums
 
-albums = read_albums_from_csv('full-moon-albums.csv', 'full-moon-albums.json')
+def write_albums_to_json(albums, json_file):
+    """
+    Write album data to JSON file.
+    """
+    with open(json_file, 'w') as f:
+        json.dump(albums, f, indent=4)
 
-# write albums to JSON
-with open('full-moon-albums.json', 'w') as f:
-    json.dump(albums, f, indent=4)
+
+if __name__ == '__main__':
+    albums = read_albums_from_csv('full-moon-albums.csv', 'full-moon-albums.json')
+    write_albums_to_json(albums, 'full-moon-albums.json')

@@ -7,12 +7,14 @@ export interface AlbumGridProps {
     albums: Album[];
     onClickFilter: React.MouseEventHandler<HTMLButtonElement>;
     ranked?: boolean;
+    hideYear?: boolean;
 }
 
 export function AlbumGrid({
     albums,
     onClickFilter,
     ranked = false,
+    hideYear = false,
 }: AlbumGridProps) {
     return (
         <div className="album-grid">
@@ -24,6 +26,7 @@ export function AlbumGrid({
                 >
                     <AlbumCard
                         ranked={ranked}
+                        hideYear={hideYear}
                         album={album}
                         onClickFilter={onClickFilter}
                     />

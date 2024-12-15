@@ -1,14 +1,17 @@
 import { useEffect } from 'react';
-import fullMoonAlbums from '../../data/full-moon-albums.json';
+import bestAlbumsOf2024 from '../../data/best-of/best-albums-of-2024.json';
 import { AlbumGrid } from '../AlbumGrid';
 import '../../css/BestOf.scss';
+import { Album } from '../Album';
 
 export default function BestAlbumsOf2024() {
     useEffect(() => {
         document.title = 'Best Albums of 2024';
     }, []);
+
     return (
-        <div className="best-albums-of-year">
+        <div className="app best-albums-of-year">
+            <div className="pattern"></div>
             <header className="best-albums-header">
                 <div className="best-albums-header-contents">
                     <h1 className="best-albums-title">
@@ -28,7 +31,12 @@ export default function BestAlbumsOf2024() {
             <main className="best-albums-body">
                 <AlbumGrid
                     ranked
-                    albums={fullMoonAlbums}
+                    albums={bestAlbumsOf2024.map(
+                        (album: Album, index: number) => ({
+                            rank: (index + 1).toString(),
+                            ...album,
+                        })
+                    )}
                     onClickFilter={() => {}}
                 />
             </main>

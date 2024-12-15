@@ -1,0 +1,427 @@
+[
+    {
+        "title": "Daryl Johns",
+        "artist": "Daryl Johns",
+        "year": "2024",
+        "descriptors": [
+            "jazzy",
+            "jangly",
+            "psychedelic"
+        ],
+        "tracks": [
+            "I'm So Serious",
+            "Palermo"
+        ],
+        "album_url": "https://open.spotify.com/album/1KcMm91Cfdgf60yhnhTbFj",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b27341dc2fa57fb5f56e90b312c1",
+        "date_added": "2024"
+    },
+    {
+        "title": "Here in the Pitch",
+        "artist": "Jessica Pratt",
+        "year": "2024",
+        "descriptors": [
+            "folk",
+            "bossa nova",
+            "mellow"
+        ],
+        "tracks": [
+            "Better Hate",
+            "Get Your Head Out"
+        ],
+        "album_url": "https://open.spotify.com/album/7hUAyfpXkSE2JT5gOORZO0",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273a92f6519da012f1efdb40475",
+        "date_added": "2024"
+    },
+    {
+        "title": "Total Blue",
+        "artist": "Total Blue",
+        "year": "2024",
+        "descriptors": [
+            "ambient",
+            "groovy",
+            "jazzy"
+        ],
+        "tracks": [
+            "Corsair",
+            "Chaparral"
+        ],
+        "album_url": "https://open.spotify.com/album/5vHwzf4eINX33tvjyugsAG",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b27372bd94ca559e3c2ad0bf3dd0",
+        "date_added": "2024"
+    },
+    {
+        "title": "Brat",
+        "artist": "Charli xcx",
+        "year": "2024",
+        "descriptors": [
+            "electronic",
+            "dance",
+            "hyperpop"
+        ],
+        "tracks": [
+            "Talk talk",
+            "Mean girls"
+        ],
+        "album_url": "https://open.spotify.com/album/2lIZef4lzdvZkiiCzvPKj7",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b27388e3822cccfb8f2832c70c2e",
+        "date_added": "2024"
+    },
+    {
+        "title": "T\u00fanel Ac\u00fastico",
+        "artist": "Marcos Valle",
+        "year": "2024",
+        "descriptors": [
+            "samba",
+            "bossa nova",
+            "funky"
+        ],
+        "tracks": [
+            "Life Is What It Is",
+            "Tem Que Ser Feliz"
+        ],
+        "album_url": "https://open.spotify.com/album/1ZttQRpVNenigwpVxxT582",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b2738528964fa1540b70753db06e",
+        "date_added": "2024"
+    },
+    {
+        "title": "Rong Weicknes",
+        "artist": "Fievel Is Glauque",
+        "year": "2024",
+        "descriptors": [
+            "jazzy",
+            "progressive pop",
+            "lounge"
+        ],
+        "tracks": [
+            "Rong Weicknes",
+            "Transparent"
+        ],
+        "album_url": "https://open.spotify.com/album/6PPLCyHL015tBNHY0GQuc0",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273c7959f4ea02043971835f832",
+        "date_added": "2024"
+    },
+    {
+        "title": "One Day",
+        "artist": "Loidis",
+        "year": "2024",
+        "descriptors": [
+            "techno",
+            "ambient",
+            "dub"
+        ],
+        "tracks": [
+            "Wait & See",
+            "Sugar Snot"
+        ],
+        "album_url": "https://open.spotify.com/album/5sDlDQVSfTst7kotzZuc7E",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273d61d3cbb57e601498bb8a127",
+        "date_added": "2024"
+    },
+    {
+        "title": "NO HANDS",
+        "artist": "Joey Valence & Brae",
+        "year": "2024",
+        "descriptors": [
+            "hip-hop",
+            "punk",
+            "goofy"
+        ],
+        "tracks": [
+            "LIKE A PUNK",
+            "DOUGHBOY"
+        ],
+        "album_url": "https://open.spotify.com/album/1Fjelo0jZ4i1iQZBsK0pOA",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273c69ef69d4c62a290e02e83e3",
+        "date_added": "2024"
+    },
+    {
+        "title": "Eating Me Alive",
+        "artist": "foamboy",
+        "year": "2024",
+        "descriptors": [
+            "indie pop",
+            "funky",
+            "groovy"
+        ],
+        "tracks": [
+            "Yours or Mine",
+            "Not a Go"
+        ],
+        "album_url": "https://open.spotify.com/album/0DQzRH23fb9Cf01H3ARMB5",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273c8e77e62014dfb6f6348eb87",
+        "date_added": "2024"
+    },
+    {
+        "title": "Planet Pearl",
+        "artist": "Pearl & the Oysters",
+        "year": "2024",
+        "descriptors": [
+            "indie pop",
+            "jazzy",
+            "psychedelic"
+        ],
+        "tracks": [
+            "Cruise Control",
+            "Triangular Girl"
+        ],
+        "album_url": "https://open.spotify.com/album/01FUZCDUiAuHG4Zd1nqVww",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273bd981117c0a1ea3332369ebb",
+        "date_added": "2024"
+    },
+    {
+        "title": "Paint a Room",
+        "artist": "Chris Cohen",
+        "year": "2024",
+        "descriptors": [
+            "soft rock",
+            "folk",
+            "jazzy"
+        ],
+        "tracks": [
+            "Sunever",
+            "Wishing Well"
+        ],
+        "album_url": "https://open.spotify.com/album/3sZZlLS1JY1MPWOGWe8mtQ",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b27328845732a9b9ebd9a065aa47",
+        "date_added": "2024"
+    },
+    {
+        "title": "A Dream Is All We Know",
+        "artist": "The Lemon Twigs",
+        "year": "2024",
+        "descriptors": [
+            "sunshine pop",
+            "soft rock",
+            "jangly"
+        ],
+        "tracks": [
+            "A Dream Is All I Know",
+            "In the Eyes of a Girl"
+        ],
+        "album_url": "https://open.spotify.com/album/3ZEIxul2SC2AslVuGZGO68",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b27393d436362cc64723d3a04b66",
+        "date_added": "2024"
+    },
+    {
+        "title": "Fly",
+        "artist": "Michael Mayo",
+        "year": "2024",
+        "descriptors": [
+            "jazz",
+            "funky",
+            "soulful"
+        ],
+        "tracks": [
+            "I Wish",
+            "Four"
+        ],
+        "album_url": "https://open.spotify.com/album/2lN2HpUppxgHZ3S5gzZ1qV",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b2735aa52c110f17551ab66c3d2b",
+        "date_added": "2024"
+    },
+    {
+        "title": "It's Sorted",
+        "artist": "Cheekface",
+        "year": "2024",
+        "descriptors": [
+            "indie rock",
+            "dance punk",
+            "goofy"
+        ],
+        "tracks": [
+            "I Am Continuing to Do My Thing",
+            "Grad School"
+        ],
+        "album_url": "https://open.spotify.com/album/3wccolEvxrZatyfmcvfrgH",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273eb77c6d37ec2ca6c195339e2",
+        "date_added": "2024"
+    },
+    {
+        "title": "What Is My Porpoise?",
+        "artist": "Dolphin Hyperspace",
+        "year": "2024",
+        "descriptors": [
+            "jazz fusion",
+            "electronic",
+            "dance"
+        ],
+        "tracks": [
+            "Caterpillar Dance",
+            "Minuscule Minnow"
+        ],
+        "album_url": "https://open.spotify.com/album/4Zw85nJtkVoKMCSxnGT3kt",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273e7bd795d775f8ec2d5f550f1",
+        "date_added": "2024"
+    },
+    {
+        "title": "Orion",
+        "artist": "Dina \u00d6gon",
+        "year": "2024",
+        "descriptors": [
+            "indie pop",
+            "psychedelic",
+            "funky"
+        ],
+        "tracks": [
+            "Det l\u00e4cker",
+            "Orion"
+        ],
+        "album_url": "https://open.spotify.com/album/5JvejhNPdxVVPTP9P8bxXf",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b2731b52aca3bea774a4247872d9",
+        "date_added": "2024"
+    },
+    {
+        "title": "Soft Power",
+        "artist": "Ezra Feinberg",
+        "year": "2024",
+        "descriptors": [
+            "ambient",
+            "folk",
+            "jazzy"
+        ],
+        "tracks": [
+            "Soft Power",
+            "Flutter Intensity"
+        ],
+        "album_url": "https://open.spotify.com/album/1cUsfDaLr0anAeEds3t1p5",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b27376126d77360e682f07a7f5ec",
+        "date_added": "2024"
+    },
+    {
+        "title": "When you wake up",
+        "artist": "Molina",
+        "year": "2024",
+        "descriptors": [
+            "dream pop",
+            "indie rock",
+            "psychedelic"
+        ],
+        "tracks": [
+            "Scorpio",
+            "Organs"
+        ],
+        "album_url": "https://open.spotify.com/album/12MEBuyqwcRS7iEdQP2GwY",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b2736f31d7c6de53db334ea2b9e1",
+        "date_added": "2024"
+    },
+    {
+        "title": "Wonderful now",
+        "artist": "Anatole Muster",
+        "year": "2024",
+        "descriptors": [
+            "jazzy",
+            "electronic",
+            "Midwest emo"
+        ],
+        "tracks": [
+            "Jumpin",
+            "blip blop"
+        ],
+        "album_url": "https://open.spotify.com/album/5JbVN9ZS9AV6EG6m9Pc7PF",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b2731288360741cc1448981e3d3d",
+        "date_added": "2024"
+    },
+    {
+        "title": "Back Then I Didn't But Now I Do",
+        "artist": "Jonny from Space",
+        "year": "2024",
+        "descriptors": [
+            "ambient",
+            "trip hop",
+            "breakbeat"
+        ],
+        "tracks": [
+            "Dream Reality",
+            "Slip"
+        ],
+        "album_url": "https://open.spotify.com/album/0uHx3mTUw4Ve3oTfRBBgUv",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273191dc2fddf576ea44eae30c4",
+        "date_added": "2024"
+    },
+    {
+        "title": "Sam Wilkes, Craig Weinrib, and Dylan Day",
+        "artist": "Sam Wilkes, Craig Weinrib, and Dylan Day",
+        "year": "2024",
+        "descriptors": [
+            "jazzy",
+            "Americana",
+            "mellow"
+        ],
+        "tracks": [
+            "Standing in the Doorway",
+            "Rain"
+        ],
+        "album_url": "https://open.spotify.com/album/3QQyertIsTgPCYlJYak92J",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b27357f023334902dcf5da29857a",
+        "date_added": "2024"
+    },
+    {
+        "title": "Great Doubt",
+        "artist": "Astrid Sonne",
+        "year": "2024",
+        "descriptors": [
+            "dream pop",
+            "synthetic",
+            "trip hop"
+        ],
+        "tracks": [
+            "Do you wanna",
+            "Say you love me"
+        ],
+        "album_url": "https://open.spotify.com/album/0X5xnCnMafZT1sRIHnzAwP",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b2738c16c4c88eca4899d91be1b3",
+        "date_added": "2024"
+    },
+    {
+        "title": "Catpack",
+        "artist": "Catpack",
+        "year": "2024",
+        "descriptors": [
+            "jazzy",
+            "neo-soul",
+            "electronic"
+        ],
+        "tracks": [
+            "Walk Away",
+            "Next to Me"
+        ],
+        "album_url": "https://open.spotify.com/album/7re3q9ulum6oiMitfFxbrj",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273d673ad5ebfdd52a75e5df994",
+        "date_added": "2024"
+    },
+    {
+        "title": "Cascade",
+        "artist": "Floating Points",
+        "year": "2024",
+        "descriptors": [
+            "house",
+            "techno",
+            "breakbeat"
+        ],
+        "tracks": [
+            "Birth4000",
+            "Fast Forward"
+        ],
+        "album_url": "https://open.spotify.com/album/4IYnAmZ8GvmNFF2ZxxKT8L",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273fe31cb644b51cedcb66fbf42",
+        "date_added": "2024"
+    },
+    {
+        "title": "Dying",
+        "artist": "The Narcotix",
+        "year": "2024",
+        "descriptors": [
+            "neo-soul",
+            "jazzy",
+            "psychedelic"
+        ],
+        "tracks": [
+            "The Sun",
+            "The Maiden"
+        ],
+        "album_url": "https://open.spotify.com/album/6Lu3BWPmfNreYAvGXdgKHI",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b2733764800f5f038057197ec351",
+        "date_added": "2024"
+    }
+]

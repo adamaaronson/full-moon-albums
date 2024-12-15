@@ -7,6 +7,17 @@ $moon-emoji-shift-left: calc(
     clamp(25vw - 500px, 0px, -0.92 * $moon-emoji-size) + 30vw - 3 * $header-gap
 );
 
+.best-of-link {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 32px;
+    z-index: 5;
+
+    margin: $spacing-unit;
+    text-decoration: none;
+}
+
 .header {
     min-height: 100vh;
     display: flex;
@@ -14,7 +25,7 @@ $moon-emoji-shift-left: calc(
     justify-content: center;
     background: $darkest-gray;
     overflow: hidden;
-
+    position: relative;
     padding: $spacing-unit * 2;
 
     @media (max-width: $responsive-threshold) {
