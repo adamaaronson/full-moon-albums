@@ -4,7 +4,7 @@ export function Hero() {
     return (
         <div className="header">
             <a
-                href="/full-moon-albums/best-albums-of-2024"
+                href="/full-moon-albums/#/best-albums-of-2024"
                 className="album-descriptor best-of-link"
             >
                 Best Albums of 2024 →
