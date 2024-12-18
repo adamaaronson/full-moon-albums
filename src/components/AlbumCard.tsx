@@ -74,7 +74,7 @@ export function AlbumCard({
                 <h2 className="album-title">{album.title}</h2>
                 <h3 className="album-artist">{album.artist}</h3>
                 <h4 className="album-year">
-                    {hideYear ? album.year.split('-')[0] : ''}
+                    {hideYear ? '' : album.year.split('-')[0]}
                 </h4>
                 <div className="album-descriptors-list">
                     {album.descriptors.map((filter) => (

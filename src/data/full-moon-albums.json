@@ -1851,5 +1851,22 @@
         "album_url": "https://open.spotify.com/album/3FVsJiQMI7dp0RfTBdWtMW",
         "image_url": "https://i.scdn.co/image/ab67616d0000b273fc44899bcbe64d27e5977512",
         "date_added": "2024-12-15"
+    },
+    {
+        "title": "Long Days, No Dreams",
+        "artist": "Water from Your Eyes",
+        "year": "2016",
+        "descriptors": [
+            "indie pop",
+            "groovy",
+            "noisy"
+        ],
+        "tracks": [
+            "Cold Stare",
+            "I'm Scared I'll Disappear"
+        ],
+        "album_url": "https://open.spotify.com/album/0mCNkBEVAgnPgXlcHA9Qp3",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b27318b67eb1728dd2f188870369",
+        "date_added": "2024-12-18"
     }
 ]

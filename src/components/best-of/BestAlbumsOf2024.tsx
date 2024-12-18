@@ -31,6 +31,7 @@ export default function BestAlbumsOf2024() {
             <main className="best-albums-body">
                 <AlbumGrid
                     ranked
+                    hideYear
                     albums={bestAlbumsOf2024.map(
                         (album: Album, index: number) => ({
                             rank: (index + 1).toString(),
