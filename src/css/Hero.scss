@@ -31,6 +31,7 @@ $moon-emoji-shift-left: calc(
     @media (max-width: $responsive-threshold) {
         padding-left: $spacing-unit * 2;
         padding-right: $spacing-unit * 2;
+        padding-top: $spacing-unit * 3;
     }
 }
 

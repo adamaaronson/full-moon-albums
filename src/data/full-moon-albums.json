@@ -1740,7 +1740,7 @@
         "descriptors": [
             "electronic",
             "ambient",
-            "groovy"
+            "techno"
         ],
         "tracks": [
             "B1",
@@ -1868,5 +1868,22 @@
         "album_url": "https://open.spotify.com/album/0mCNkBEVAgnPgXlcHA9Qp3",
         "image_url": "https://i.scdn.co/image/ab67616d0000b27318b67eb1728dd2f188870369",
         "date_added": "2024-12-18"
+    },
+    {
+        "title": "Bird at Sunrise",
+        "artist": "I Am Robot and Proud",
+        "year": "2025-02-14",
+        "descriptors": [
+            "electronic",
+            "ambient",
+            "groovy"
+        ],
+        "tracks": [
+            "Lines in a Grid",
+            "Yesteryou"
+        ],
+        "album_url": "https://open.spotify.com/album/1xkwqHdQXLYaqhe7DhpPtw",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273c4bccf5cd649c1822802cf55",
+        "date_added": "2025-02-26"
     }
 ]

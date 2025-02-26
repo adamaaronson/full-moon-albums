@@ -116,9 +116,9 @@ export function Hero() {
                     </li>
                 </ul>
                 <p>
-                    After rating <strong>2,400+</strong> albums, these are the
-                    only ones that slap from start to finish, the ones I keep
-                    coming back to, the ones that earned themselves a{' '}
+                    After rating <strong>2,500+</strong> albums, these are the
+                    ones that slap from start to finish, the ones I keep coming
+                    back to, the ones that earned themselves a{' '}
                     <strong>Full Moon</strong>.{' '}
                     <a
                         className="learn-more"
