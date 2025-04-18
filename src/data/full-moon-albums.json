@@ -1885,5 +1885,22 @@
         "album_url": "https://open.spotify.com/album/1xkwqHdQXLYaqhe7DhpPtw",
         "image_url": "https://i.scdn.co/image/ab67616d0000b273c4bccf5cd649c1822802cf55",
         "date_added": "2025-02-26"
+    },
+    {
+        "title": "45 Pounds",
+        "artist": "YHWH Nailgun",
+        "year": "2025-03-21",
+        "descriptors": [
+            "industrial",
+            "punk",
+            "funky"
+        ],
+        "tracks": [
+            "Castrato Raw (Fullback)",
+            "Tear Pusher"
+        ],
+        "album_url": "https://open.spotify.com/album/5DLFxUTEQIFGhjll8vhTZE",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b27382e34e881180254d714dcec1",
+        "date_added": "2025-04-18"
     }
 ]
