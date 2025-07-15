@@ -116,7 +116,7 @@ export function Hero() {
                     </li>
                 </ul>
                 <p>
-                    After rating <strong>2,600+</strong> albums, these are the
+                    After rating <strong>2,800+</strong> albums, these are the
                     ones that slap from start to finish, the ones I keep coming
                     back to, the ones that earned themselves a{' '}
                     <strong>Full Moon</strong>.{' '}
