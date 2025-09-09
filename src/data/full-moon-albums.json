@@ -1902,5 +1902,22 @@
         "album_url": "https://open.spotify.com/album/5DLFxUTEQIFGhjll8vhTZE",
         "image_url": "https://i.scdn.co/image/ab67616d0000b27382e34e881180254d714dcec1",
         "date_added": "2025-04-18"
+    },
+    {
+        "title": "Cupid & Psyche 85",
+        "artist": "Scritti Politti",
+        "year": "1985",
+        "descriptors": [
+            "sophisti-pop",
+            "funky",
+            "chintzy"
+        ],
+        "tracks": [
+            "Small Talk",
+            "Perfect Way"
+        ],
+        "album_url": "https://open.spotify.com/album/0nBH3ITWaQDYT2wAWRdg3K",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b2735e28bb98b1a5c817f9553994",
+        "date_added": "2025-09-09"
     }
 ]
