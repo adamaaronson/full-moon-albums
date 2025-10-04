@@ -1919,5 +1919,22 @@
         "album_url": "https://open.spotify.com/album/0nBH3ITWaQDYT2wAWRdg3K",
         "image_url": "https://i.scdn.co/image/ab67616d0000b2735e28bb98b1a5c817f9553994",
         "date_added": "2025-09-09"
+    },
+    {
+        "title": "Massive Shoe",
+        "artist": "Way Dynamic",
+        "year": "2025-08-22",
+        "descriptors": [
+            "soft rock",
+            "folk",
+            "jazzy"
+        ],
+        "tracks": [
+            "My Visit (To Hell)",
+            "Hurricane"
+        ],
+        "album_url": "https://open.spotify.com/album/7iOuhPNM8lxGVLBO9Jz9lL",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273a340dd4ade66fa7f790eb880",
+        "date_added": "2025-10-04"
     }
 ]
