@@ -82,7 +82,7 @@ export function AlbumCard({
                                 <span style={{ whiteSpace: 'nowrap' }}>
                                     {album.artist.split(' ').slice(-1)}
                                     <img
-                                        src={`/flags/${album.country}.svg`}
+                                        src={`flags/${album.country}.svg`}
                                         className="flag"
                                     />
                                 </span>
