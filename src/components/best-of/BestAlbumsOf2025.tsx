@@ -7,7 +7,7 @@ import { Footer } from '../Footer';
 
 export default function BestAlbumsOf2024() {
     useEffect(() => {
-        document.title = 'Best Albums of 2024';
+        document.title = 'Best Albums of 2025';
     }, []);
 
     return (
