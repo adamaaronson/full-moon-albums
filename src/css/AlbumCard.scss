@@ -6,7 +6,7 @@
     border-radius: 32px;
     padding: 32px;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     flex-flow: column wrap;
     position: relative;
 
@@ -101,6 +101,13 @@
     &:hover {
         transform: scale(1.06);
     }
+}
+
+.album-info {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .album-tracks {

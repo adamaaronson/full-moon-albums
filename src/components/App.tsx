@@ -1,50 +1,60 @@
-import { useState } from 'react'
-import { AlbumGrid } from './AlbumGrid'
-import "../css/App.scss"
+import { useState } from 'react';
+import { AlbumGrid } from './AlbumGrid';
+import '../css/App.scss';
 import fullMoonAlbums from '../data/full-moon-albums.json';
-import { Sort, getSortedAlbums, AlbumSorter, getFilterList, ALL_ALBUMS } from './AlbumSorter'
+import {
+    Sort,
+    getSortedAlbums,
+    AlbumSorter,
+    getFilterList,
+    ALL_ALBUMS,
+} from './AlbumSorter';
 import { Hero } from './Hero';
 import { Footer } from './Footer';
 
 function App() {
-    const [albums, setAlbums] = useState(getSortedAlbums(fullMoonAlbums, Sort.RecentlyAdded))
-    const [allAlbums] = useState(fullMoonAlbums)
-    const [sort, setSort] = useState(Sort.RecentlyAdded)
-    const [filter, setFilter] = useState(ALL_ALBUMS)
-    const [filterList] = useState(getFilterList(fullMoonAlbums))
+    const [albums, setAlbums] = useState(
+        getSortedAlbums(fullMoonAlbums, Sort.RecentlyAdded)
+    );
+    const [allAlbums] = useState(fullMoonAlbums);
+    const [sort, setSort] = useState(Sort.RecentlyAdded);
+    const [filter, setFilter] = useState(ALL_ALBUMS);
+    const [filterList] = useState(getFilterList(fullMoonAlbums));
 
     const handleSortChange = (sort: Sort) => {
-        setSort(sort)
+        setSort(sort);
 
-        const newAlbums = getSortedAlbums(albums, sort)
-        setAlbums([...newAlbums])
-    }
+        const newAlbums = getSortedAlbums(albums, sort);
+        setAlbums([...newAlbums]);
+    };
 
     const handleFilterChange = (filter: string) => {
-        setFilter(filter)
+        setFilter(filter);
 
-        let newAlbums = allAlbums
+        let newAlbums = allAlbums;
         if (filter !== ALL_ALBUMS) {
-            newAlbums = allAlbums.filter(album => album.descriptors.includes(filter))
+            newAlbums = allAlbums.filter((album) =>
+                album.descriptors.includes(filter)
+            );
         }
-        newAlbums = getSortedAlbums(newAlbums, sort)
-        setAlbums([...newAlbums])
+        newAlbums = getSortedAlbums(newAlbums, sort);
+        setAlbums([...newAlbums]);
 
         const albumElement = document.getElementById('albums');
         if (albumElement) {
             albumElement.scrollIntoView();
         }
-    }
+    };
 
     const handleFilterClick = (event: React.MouseEvent<HTMLElement>) => {
-        handleFilterChange((event.target as HTMLButtonElement).value)
-    }
+        handleFilterChange((event.target as HTMLButtonElement).value);
+    };
 
     return (
         <div className="app">
             <div className="pattern"></div>
             <section className="app-hero">
-                <Hero/>
+                <Hero />
             </section>
             <main className="app-body" id="albums">
                 <AlbumSorter
@@ -53,16 +63,11 @@ function App() {
                     currentFilter={filter}
                     filterList={filterList}
                 />
-                <AlbumGrid
-                    albums={albums}
-                    onClickFilter={handleFilterClick}
-                />
+                <AlbumGrid albums={albums} onClickFilter={handleFilterClick} />
             </main>
-            <footer className="app-footer">
-                <Footer/>
-            </footer>
+            <Footer />
         </div>
-    )
+    );
 }
 
-export default App
+export default App;

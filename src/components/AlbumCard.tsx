@@ -65,59 +65,69 @@ export function AlbumCard({
                 </div>
             )}
 
-            <div className="album-info">
+            <div className="album-image-wrapper">
                 <img
                     src={album.image_url}
                     className="album-image"
                     width="200px"
                 ></img>
-                <h2 className="album-title">{album.title}</h2>
-                <h3 className="album-artist">{album.artist}</h3>
-                <h4 className="album-year">
-                    {hideYear ? '' : album.year.split('-')[0]}
-                </h4>
-                <div className="album-descriptors-list">
-                    {album.descriptors.map((filter) => (
-                        <button
-                            className="album-descriptor"
-                            key={filter}
-                            value={filter}
-                            onClick={onClickFilter}
-                        >
-                            {capitalizeFirstLetter(filter)}
-                        </button>
-                    ))}
-                </div>
             </div>
-            <div className="album-tracks">
-                <div className="album-tracks-text">
-                    <h4 className="album-tracks-header">Favorite tracks:</h4>
-                    <ul className="album-tracks-list">
-                        {album.tracks.map((track) => (
-                            <li className="album-track" key={track}>
-                                {track}
-                            </li>
+            <div className="album-info">
+                <div>
+                    <h2 className="album-title">{album.title}</h2>
+                    <h3 className="album-artist">{album.artist}</h3>
+                    <h4 className="album-year">
+                        {hideYear ? '' : album.year.split('-')[0]}
+                    </h4>
+                    <div className="album-descriptors-list">
+                        {album.descriptors.map((filter) => (
+                            <button
+                                className="album-descriptor"
+                                key={filter}
+                                value={filter}
+                                onClick={onClickFilter}
+                            >
+                                {capitalizeFirstLetter(filter)}
+                            </button>
                         ))}
-                    </ul>
+                    </div>
                 </div>
-                <div className="album-link">
-                    {album.album_url == '' ? (
-                        <img
-                            className="spotify-logo no-spotify"
-                            src="spotify.png"
-                        ></img>
-                    ) : (
-                        <a
-                            href={album.album_url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
+                <div className="album-tracks">
+                    <div className="album-tracks-text">
+                        <h4 className="album-tracks-header">
+                            Favorite tracks:
+                        </h4>
+                        <ul className="album-tracks-list">
+                            {album.tracks.map((track) => (
+                                <li className="album-track" key={track}>
+                                    {track}
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                    <div className="album-link">
+                        {album.album_url == '' ? (
                             <img
-                                className="spotify-logo"
+                                className="spotify-logo no-spotify"
                                 src="spotify.png"
                             ></img>
-                        </a>
-                    )}
+                        ) : (
+                            <a
+                                href={album.album_url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <img
+                                    className="spotify-logo"
+                                    src={
+                                        album.album_url.includes('bandcamp.com')
+                                            ? 'bandcamp.png'
+                                            : 'spotify.png'
+                                    }
+                                ></img>
+                            </a>
+                        )}
+                    </div>
                 </div>
             </div>
         </div>

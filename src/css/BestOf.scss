@@ -22,10 +22,14 @@
     color: $white;
     background-color: $dark-gray;
     border-radius: 32px;
-    padding: 32px;
-    max-width: 690px;
+    padding: 48px 64px;
+    max-width: 740px;
     margin: auto;
     gap: 32px;
+
+    @media (max-width: $responsive-threshold) {
+        padding: 32px;
+    }
 }
 
 .best-albums-title {
@@ -33,7 +37,7 @@
 
     @media (max-width: calc($responsive-threshold * 0.8)) {
         font-size: 36px;
-        margin-bottom: $spacing-unit;
+        margin-bottom: 0.2em;
     }
 }
 
@@ -46,4 +50,41 @@
 .best-albums-description {
     color: $gray;
     line-height: 1.5em;
+
+    &:not(:last-child) {
+        margin-bottom: 0.5em;
+    }
+}
+
+.best-albums-body {
+    .album-grid {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+        padding: $spacing-unit * 2;
+    }
+
+    .album-card-wrapper {
+        justify-content: center;
+        width: 100%;
+    }
+
+    @media (min-width: 650px) {
+        .album-image {
+            max-width: 290px;
+            margin-bottom: 0;
+        }
+        .album-card {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            gap: $spacing-unit * 1.5;
+            width: 740px;
+        }
+    }
 }
