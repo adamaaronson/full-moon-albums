@@ -75,7 +75,22 @@ export function AlbumCard({
             <div className="album-info">
                 <div>
                     <h2 className="album-title">{album.title}</h2>
-                    <h3 className="album-artist">{album.artist}</h3>
+                    <h3 className="album-artist">
+                        {album.country ? (
+                            <>
+                                {album.artist.split(' ').slice(0, -1).join(' ')}{' '}
+                                <span style={{ whiteSpace: 'nowrap' }}>
+                                    {album.artist.split(' ').slice(-1)}
+                                    <img
+                                        src={`/flags/${album.country}.svg`}
+                                        className="flag"
+                                    />
+                                </span>
+                            </>
+                        ) : (
+                            album.artist
+                        )}
+                    </h3>
                     <h4 className="album-year">
                         {hideYear ? '' : album.year.split('-')[0]}
                     </h4>

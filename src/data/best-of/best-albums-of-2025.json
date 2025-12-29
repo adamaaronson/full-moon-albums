@@ -1,7 +1,8 @@
 [
     {
         "title": "Massive Shoe",
-        "artist": "Way Dynamic\u00A0🇦🇺",
+        "artist": "Way Dynamic",
+        "country": "australia",
         "year": "2025",
         "descriptors": ["soft rock", "sunshine pop", "jazzy"],
         "tracks": ["My Visit (To Hell)", "Hurricane"],
@@ -11,7 +12,8 @@
     },
     {
         "title": "45 Pounds",
-        "artist": "YHWH Nailgun\u00A0🇺🇸",
+        "artist": "YHWH Nailgun",
+        "country": "us",
         "year": "2025",
         "descriptors": ["industrial", "post-punk", "funky"],
         "tracks": ["Castrato Raw (Fullback)", "Tear Pusher"],
@@ -21,7 +23,8 @@
     },
     {
         "title": "Bird at Sunrise",
-        "artist": "I Am Robot and Proud\u00A0🇨🇦",
+        "artist": "I Am Robot and Proud",
+        "country": "canada",
         "year": "2025",
         "descriptors": ["electronic", "cozy", "groovy"],
         "tracks": ["Lines in a Grid", "Yesteryou"],
@@ -31,7 +34,8 @@
     },
     {
         "title": "Getting Killed",
-        "artist": "Geese\u00A0🇺🇸",
+        "artist": "Geese",
+        "country": "us",
         "year": "2025",
         "descriptors": ["indie rock", "groovy", "funky"],
         "tracks": ["Islands of Men", "Bow Down"],
@@ -41,7 +45,8 @@
     },
     {
         "title": "Elvers Pass",
-        "artist": "Jorg Kuning\u00A0🇬🇧",
+        "artist": "Jorg Kuning",
+        "country": "uk",
         "year": "2025",
         "descriptors": ["house", "bouncy", "bloopy"],
         "tracks": ["Synthetic Squashies", "Skudde"],
@@ -51,7 +56,8 @@
     },
     {
         "title": "Holo Boy",
-        "artist": "This Is Lorelei\u00A0🇺🇸",
+        "artist": "This Is Lorelei",
+        "country": "us",
         "year": "2025",
         "descriptors": ["indie rock", "groovy", "bedroom pop"],
         "tracks": ["But You Just Woke Me Up", "Mouth Man"],
@@ -61,7 +67,8 @@
     },
     {
         "title": "Scanners",
-        "artist": "Anthony Naples\u00A0🇺🇸",
+        "artist": "Anthony Naples",
+        "country": "us",
         "year": "2025",
         "descriptors": ["house", "trance", "techno"],
         "tracks": ["Scanners", "Night"],
@@ -71,7 +78,8 @@
     },
     {
         "title": "R\u00e1pido Mam\u00e1",
-        "artist": "Mar\u00eda Wolff\u00A0🇦🇷",
+        "artist": "Mar\u00eda Wolff",
+        "country": "argentina",
         "year": "2025",
         "descriptors": ["disco", "sophisti-pop", "funky"],
         "tracks": ["Hazte Hombre", "El Baile"],
@@ -81,7 +89,8 @@
     },
     {
         "title": "I'll Be Waving as You Drive Away",
-        "artist": "Hayden Pedigo\u00A0🇺🇸",
+        "artist": "Hayden Pedigo",
+        "country": "us",
         "year": "2025",
         "descriptors": ["folk", "americana", "ambient"],
         "tracks": ["Long Pond Lily", "All the Way Across"],
@@ -91,7 +100,8 @@
     },
     {
         "title": "32",
-        "artist": "Jacob Mann\u00A0🇺🇸",
+        "artist": "Jacob Mann",
+        "country": "us",
         "year": "2025",
         "descriptors": ["jazz", "mellow", "playful"],
         "tracks": ["Alhambra Park", "Here We Go"],
@@ -101,7 +111,8 @@
     },
     {
         "title": "sorry i thought you were someone else",
-        "artist": "K-Lone\u00A0🇬🇧",
+        "artist": "K-Lone",
+        "country": "uk",
         "year": "2025",
         "descriptors": ["house", "cozy", "groovy"],
         "tracks": ["fauna", "sslip"],
@@ -111,7 +122,8 @@
     },
     {
         "title": "Awkward Dance Music",
-        "artist": "Windows 96\u00A0🇧🇷",
+        "artist": "Windows 96",
+        "country": "brazil",
         "year": "2025",
         "descriptors": ["electronic", "chillwave", "groovy"],
         "tracks": ["Why?", "Late Night Television"],
@@ -121,7 +133,8 @@
     },
     {
         "title": "Lifetime",
-        "artist": "Erika de Casier\u00A0🇩🇰",
+        "artist": "Erika de Casier",
+        "country": "denmark",
         "year": "2025",
         "descriptors": ["trip-hop", "mellow", "dreamy"],
         "tracks": ["December", "Delusional"],
@@ -131,7 +144,8 @@
     },
     {
         "title": "Baby",
-        "artist": "Dijon\u00A0🇺🇸",
+        "artist": "Dijon",
+        "country": "us",
         "year": "2025",
         "descriptors": ["neo-soul", "wonky", "groovy"],
         "tracks": ["Another Baby!", "Automatic"],
@@ -141,7 +155,8 @@
     },
     {
         "title": "Los Thuthanaka",
-        "artist": "Los Thuthanaka\u00A0🇺🇸",
+        "artist": "Los Thuthanaka",
+        "country": "us",
         "year": "2025",
         "descriptors": ["electronic", "groovy", "experimental"],
         "tracks": ["Huay\u00f1o \"Ipi Saxra\"", "Huay\u00f1o \"Phuju\""],
@@ -151,7 +166,8 @@
     },
     {
         "title": "Music 2",
-        "artist": "FM Skyline & Equip\u00A0🇺🇸",
+        "artist": "FM Skyline & Equip",
+        "country": "us",
         "year": "2025",
         "descriptors": ["synthetic", "breakbeat", "dreamy"],
         "tracks": ["Megablast", "Jaburo"],
@@ -161,7 +177,8 @@
     },
     {
         "title": "Uhlmann Johnson Wilkes",
-        "artist": "Gregory Uhlmann, Josh Johnson, and Sam Wilkes\u00A0🇺🇸",
+        "artist": "Gregory Uhlmann, Josh Johnson, and Sam Wilkes",
+        "country": "us",
         "year": "2025",
         "descriptors": ["jazzy", "electroacoustic", "groovy"],
         "tracks": ["Marvis", "Hoe Down"],
@@ -171,7 +188,8 @@
     },
     {
         "title": "Essex Honey",
-        "artist": "Blood Orange\u00A0🇬🇧",
+        "artist": "Blood Orange",
+        "country": "uk",
         "year": "2025",
         "descriptors": ["sophisti-pop", "dreamy", "jazzy"],
         "tracks": ["Vivid Light", "The Train (King's Cross)"],
@@ -181,7 +199,8 @@
     },
     {
         "title": "Luminescent Creatures",
-        "artist": "Ichiko Aoba\u00A0🇯🇵",
+        "artist": "Ichiko Aoba",
+        "country": "japan",
         "year": "2025",
         "descriptors": ["ambient", "folk", "dreamy"],
         "tracks": ["tower", "Lucif\u00e9rine"],
@@ -191,7 +210,8 @@
     },
     {
         "title": "Different Rooms",
-        "artist": "Jeremiah Chiu & Marta Sofia Honer\u00A0🇺🇸",
+        "artist": "Jeremiah Chiu & Marta Sofia Honer",
+        "country": "us",
         "year": "2025",
         "descriptors": ["electronic", "ambient", "jazzy"],
         "tracks": ["Different Rooms", "Speaking in Parallel"],
@@ -201,7 +221,8 @@
     },
     {
         "title": "Weirdo",
-        "artist": "Emma-Jean Thackray\u00A0🇬🇧",
+        "artist": "Emma-Jean Thackray",
+        "country": "uk",
         "year": "2025",
         "descriptors": ["neo-soul", "jazzy", "funky"],
         "tracks": ["Weirdo", "Wanna Die"],
@@ -211,7 +232,8 @@
     },
     {
         "title": "Sirius Syntoms",
-        "artist": "Lindstr\u00f8m\u00A0🇳🇴",
+        "artist": "Lindstr\u00f8m",
+        "country": "norway",
         "year": "2025",
         "descriptors": ["disco", "house", "bouncy"],
         "tracks": ["Cirkl", "Moo)n"],
@@ -221,7 +243,8 @@
     },
     {
         "title": "Cabin in the Sky",
-        "artist": "De La Soul\u00A0🇺🇸",
+        "artist": "De La Soul",
+        "country": "us",
         "year": "2025",
         "descriptors": ["hip-hop", "funky", "sampledelia"],
         "tracks": [
@@ -234,7 +257,8 @@
     },
     {
         "title": "I Love My Computer",
-        "artist": "Ninajirachi\u00A0🇦🇺",
+        "artist": "Ninajirachi",
+        "country": "australia",
         "year": "2025",
         "descriptors": ["electropop", "house", "glitchy"],
         "tracks": ["London Song", "CSIRAC"],
@@ -244,7 +268,8 @@
     },
     {
         "title": "Equus Caballus",
-        "artist": "Men I Trust\u00A0🇨🇦",
+        "artist": "Men I Trust",
+        "country": "canada",
         "year": "2025",
         "descriptors": ["indie pop", "groovy", "dreamy"],
         "tracks": ["Come Back Down", "Ring of Past (2025)"],
