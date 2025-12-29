@@ -1,4 +1,4 @@
-import { AlbumCard, AlbumCardProps } from './AlbumCard';
+import { AlbumCard } from './AlbumCard';
 import { Album } from './Album';
 import '../css/AlbumGrid.scss';
 import { motion } from 'framer-motion';
