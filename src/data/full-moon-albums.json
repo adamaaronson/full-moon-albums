@@ -1875,7 +1875,7 @@
         "year": "2025-02-14",
         "descriptors": [
             "electronic",
-            "ambient",
+            "cozy",
             "groovy"
         ],
         "tracks": [
@@ -1892,7 +1892,7 @@
         "year": "2025-03-21",
         "descriptors": [
             "industrial",
-            "punk",
+            "post-punk",
             "funky"
         ],
         "tracks": [
@@ -1926,7 +1926,7 @@
         "year": "2025-08-22",
         "descriptors": [
             "soft rock",
-            "folk",
+            "sunshine pop",
             "jazzy"
         ],
         "tracks": [
@@ -1936,5 +1936,22 @@
         "album_url": "https://open.spotify.com/album/7iOuhPNM8lxGVLBO9Jz9lL",
         "image_url": "https://i.scdn.co/image/ab67616d0000b273a340dd4ade66fa7f790eb880",
         "date_added": "2025-10-04"
+    },
+    {
+        "title": "Is It Now?",
+        "artist": "Automatic",
+        "year": "2025-09-26",
+        "descriptors": [
+            "new wave",
+            "dance punk",
+            "groovy"
+        ],
+        "tracks": [
+            "Mercury",
+            "Country Song"
+        ],
+        "album_url": "https://open.spotify.com/album/2jliA7qOg03hZjRqumKssq",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b27305caa622dbfc1f44bf8d7455",
+        "date_added": "2026-01-26"
     }
 ]
