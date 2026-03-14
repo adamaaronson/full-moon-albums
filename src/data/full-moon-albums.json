@@ -1943,7 +1943,7 @@
         "year": "2025-09-26",
         "descriptors": [
             "new wave",
-            "dance punk",
+            "indie pop",
             "groovy"
         ],
         "tracks": [
@@ -1953,5 +1953,22 @@
         "album_url": "https://open.spotify.com/album/2jliA7qOg03hZjRqumKssq",
         "image_url": "https://i.scdn.co/image/ab67616d0000b27305caa622dbfc1f44bf8d7455",
         "date_added": "2026-01-26"
+    },
+    {
+        "title": "Queda Livre",
+        "artist": "Caxtrinho",
+        "year": "2024-08-22",
+        "descriptors": [
+            "jazzy",
+            "psychedelic",
+            "samba"
+        ],
+        "tracks": [
+            "Cria de Bel",
+            "Desastre na Pista"
+        ],
+        "album_url": "https://open.spotify.com/album/5P0mCSJLuXhGKnLzfvLIAn",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273348af7ed26377207600c3680",
+        "date_added": "2026-03-14"
     }
 ]
