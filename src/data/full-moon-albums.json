@@ -1970,5 +1970,22 @@
         "album_url": "https://open.spotify.com/album/5P0mCSJLuXhGKnLzfvLIAn",
         "image_url": "https://i.scdn.co/image/ab67616d0000b273348af7ed26377207600c3680",
         "date_added": "2026-03-14"
+    },
+    {
+        "title": "\u0434\u043b\u044f FOR",
+        "artist": "Kate NV",
+        "year": "2018-06-22",
+        "descriptors": [
+            "electronic",
+            "minimal",
+            "bouncy"
+        ],
+        "tracks": [
+            "\u0414\u0432\u0430 TWO",
+            "\u0417\u0440\u044f SEE"
+        ],
+        "album_url": "https://open.spotify.com/album/0FvvY5F27MaKdwvTx1EybZ",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273a38291ac779ce4916b543a67",
+        "date_added": "2026-04-08"
     }
 ]
