@@ -1987,5 +1987,22 @@
         "album_url": "https://open.spotify.com/album/0FvvY5F27MaKdwvTx1EybZ",
         "image_url": "https://i.scdn.co/image/ab67616d0000b273a38291ac779ce4916b543a67",
         "date_added": "2026-04-08"
+    },
+    {
+        "title": "Bodies in Motion",
+        "artist": "Plum",
+        "year": "2026-08-21",
+        "descriptors": [
+            "new wave",
+            "post-punk",
+            "groovy"
+        ],
+        "tracks": [
+            "Asymmetric",
+            "Deja Vu"
+        ],
+        "album_url": "https://open.spotify.com/album/59sjtBMpbMO4SdbvtLWCJD",
+        "image_url": "https://i.scdn.co/image/ab67616d0000b27351a6b94d7f6656e59f588c18",
+        "date_added": "2026-09-05"
     }
 ]
